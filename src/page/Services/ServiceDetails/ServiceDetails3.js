@@ -11,14 +11,11 @@ const ServiceDetails3 = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-8 mx-auto text-center">
-                            <h2 className="mb-3 text-capitalize">Web Vitals</h2>
+                            <h2 className="mb-3 text-capitalize">UI/UX</h2>
                             <ul className="list-inline breadcrumbs text-capitalize" style={{ fontWeight: 500 }}>
-                                <li className="list-inline-item"><Link to="/">Home</Link>
-                                </li>
-                                <li className="list-inline-item">/ &nbsp; <Link to="/services">Services</Link>
-                                </li>
-                                <li className="list-inline-item">/ &nbsp; <Link to="/ServiceDetails01">Web Vitals</Link>
-                                </li>
+                                <li className="list-inline-item"><Link to="/">Home</Link></li>
+                                <li className="list-inline-item">/ <Link to="/services">Services</Link></li>
+                                <li className="list-inline-item">/ <Link to="/ServiceDetails01">UI/UX</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -39,7 +36,7 @@ const ServiceDetails3 = () => {
                         <path d="M817.266 289.466C813.108 259.989 787.151 237.697 759.261 227.271C731.372 216.846 701.077 215.553 671.666 210.904C642.254 206.24 611.795 197.156 591.664 175.224C555.853 136.189 566.345 75.5336 560.763 22.8649C552.302 -56.8256 498.487 -130.133 425 -162.081" stroke="currentColor" strokeMiterlimit="10" />
                         <path d="M832.584 276.159C828.427 246.683 802.469 224.391 774.58 213.965C746.69 203.539 716.395 202.246 686.984 197.598C657.573 192.934 627.114 183.85 606.982 161.918C571.172 122.883 581.663 62.2275 576.082 9.55873C567.62 -70.1318 513.806 -143.439 440.318 -175.387" stroke="currentColor" strokeMiterlimit="10" />
                         <path d="M847.904 262.853C843.747 233.376 817.789 211.084 789.9 200.659C762.011 190.233 731.716 188.94 702.304 184.292C672.893 179.627 642.434 170.544 622.303 148.612C586.492 109.577 596.983 48.9211 591.402 -3.74766C582.94 -83.4382 529.126 -156.746 455.638 -188.694" stroke="currentColor" strokeMiterlimit="10" />
-                        <path d="M863.24 249.547C859.083 220.07 833.125 197.778 805.236 187.353C777.347 176.927 747.051 175.634 717.64 170.986C688.229 166.321 657.77 157.237 637.639 135.306C601.828 96.2707 612.319 35.6149 606.738 -17.0538C598.276 -96.7443 544.462 -170.052 470.974 -202" stroke="currentColor" strokeMiterlimit="10" />
+                        <path d="M863.24 249.547C859.083 220.07 833.125 197.778 805.236 187.353C777.347 176.927 747.051 175.634 717.64 170.986C688.229 166.321 657.77 157.237 637.639 135.306C601.828 96.2707 612.319 35.6149 606.738 -17.0538C598.276 -96.7443 544.462 -170.052 470.974 -200" stroke="currentColor" strokeMiterlimit="10" />
                     </svg>
                 </div>
             </section>
@@ -49,48 +46,45 @@ const ServiceDetails3 = () => {
                     <div className="row g-5">
                         <div className="col-lg-4 mb-5 mb-lg-0">
                             <div className="bg-white shadow rounded-lg p-4 sticky-top" style={{ top: '30px' }}>
-                                <h4 className="has-line-end">Web Vitals</h4>
+                                <h4 className="has-line-end">UI/UX</h4>
                                 <nav id="TableOfContents">
                                     <ul>
-                                        <li><a href="#how-a-payday-loan-online-works">What is Web Vitals?</a>
-                                        </li>
-                                        <li><a href="#what-you-know-about-loans">Benefits</a>
-                                        </li>
-                                        <li><a href="#what-services-we-render">How does it boost your business?</a>
-                                        </li>
+                                        <li><a href="#how-a-payday-loan-online-works">What is UI/UX?</a></li>
+                                        <li><a href="#payday-loan-application-processing">Benefits</a></li>
+                                        <li><a href="#what-services-we-render">How does it boost your business?</a></li>
                                     </ul>
                                 </nav>
                             </div>
                         </div>
                         <div className="col-lg-8">
                             <div className="content">
-                                <h2 id="how-a-payday-loan-online-works">Web Vitals</h2>
-                                <p>Web vitals represent a set of crucial metrics defined by Google to gauge the user experience on a website. These metrics, encompassing loading speed, interactivity, and visual stability, serve as vital indicators of a website's overall health. Prioritizing these metrics enables websites to enhance user experience, leading to an improved overall user journey, heightened user engagement, and increased conversions. Web vitals play an integral role in optimizing a website for both search engines and users, making them a paramount consideration for all website owners.</p>
-                                <p>Initiated by Google, Web Vitals offers unified guidance on quality signals essential for delivering an exceptional user experience on the web. It includes metrics measuring website performance, such as loading speed, interactivity, and visual stability. These metrics provide developers with a toolset to assess and enhance the user experience of their websites. Web Vitals zeroes in on what users perceive as crucial during website interactions, establishing itself as a key component of website optimization.</p>
-                                <p>Web Vitals aims to empower website owners in comprehending the significance of delivering a high-quality user experience. By adhering to Web Vitals recommendations, website owners can optimize their sites for accelerated loading times, heightened interactivity, and a seamless visual experience. Consequently, this optimization can lead to increased user engagement, improved conversion rates, and elevated search engine rankings. With Web Vitals, website owners can ensure that their sites not only perform well but also provide an exceptional experience for their users.</p>
+                                <h2 id="how-a-payday-loan-online-works">What is UI/UX?</h2>
+                                <p>UI/UX design is the art of creating intuitive, engaging, and visually appealing experiences for users interacting with digital products. UI (User Interface) focuses on the look and layout—buttons, colors, typography—while UX (User Experience) ensures the journey is seamless, efficient, and enjoyable.</p>
+                                <p>At ZDart, our UI/UX services combine creativity and strategy to craft interfaces that delight users and meet business goals. We design for apps, websites, and systems, ensuring every interaction is purposeful and every design is user-centric.</p>
+                                <p>Our process involves research, wireframing, prototyping, and testing to create solutions that are both beautiful and functional. By understanding user needs and behaviors, we build experiences that keep users coming back.</p>
+                                <p>UI/UX is more than aesthetics—it’s about solving problems. Whether it’s simplifying navigation, enhancing accessibility, or boosting engagement, our designs elevate how users connect with your technology.</p>
                                 <hr />
-                                <h3 id="payday-loan-application-processing">Payday Loan Application Processing</h3>
+                                <h3 id="payday-loan-application-processing">Benefits</h3>
                                 <ul>
-                                    <li>Web vitals help in monitoring and optimizing crucial aspects of user experience, including loading speed, interactivity, and visual stability.</li>
-                                    <li>This optimization contributes to an enhanced and more captivating user experience, a critical factor for retaining visitors and boosting conversion rates.</li>
-                                    <li>With an increasing number of users accessing the web via mobile devices, prioritizing web vitals becomes indispensable.</li>
-                                    <li>Businesses, by focusing on web vitals, can elevate the user experience for their website visitors, resulting in prolonged site visits, heightened engagement, and increased conversions.</li>
-                                    <li>Addressing slow loading times and other performance issues is vital to reduce bounce rates, preventing visitors from leaving the site without taking any action.</li>
-                                    <li>By giving precedence to web vitals, businesses can gain a competitive edge over sites that may not be optimized for performance, leading to heightened brand awareness, a broader customer base, and increased revenue.</li>
+                                    <li>Enhanced user satisfaction through intuitive and visually appealing designs.</li>
+                                    <li>Increased engagement by streamlining navigation and reducing friction in user journeys.</li>
+                                    <li>Higher retention rates as users enjoy seamless and memorable experiences.</li>
+                                    <li>Improved conversions with designs optimized for usability and goal completion.</li>
+                                    <li>Reduced development costs by identifying issues early through prototyping and testing.</li>
+                                    <li>Stronger brand identity with consistent, professional, and user-focused interfaces.</li>
                                 </ul>
                                 <hr />
                                 <h2 id="what-services-we-render">How does it boost your business?</h2>
-                                <p>By directing attention to web vitals, businesses can enhance the performance and usability of their websites, resulting in an improved user experience, heightened engagement, and increased conversion rates.</p>
-                                <p>Optimizing for web vitals holds the potential to elevate a business's online presence by enhancing the website's search engine ranking and visibility. Meeting web vitals standards increases the likelihood of the website appearing at the top of search results, leading to more traffic, improved engagement, and increased revenue. A fast, reliable, and responsive website builds trust and credibility with customers, fostering long-term relationships and repeat business.</p>
-                                <p>Our approach to web vitals centers on delivering an optimal user experience. We start with a comprehensive analysis of your website, identifying areas for improvement in speed, interactivity, and visual stability. Collaborating closely with you, we implement best practices and the latest technologies to enhance overall performance. Whether through code optimization, image compression, or other techniques, our goal is to meet the evolving needs of your users and deliver a fast, responsive, and visually appealing website.</p>
-                                <p>Our approach to web vitals optimization prioritizes improving user experience. Our team collaborates closely with clients to implement best practices and performance optimizations for a seamless and enjoyable user experience. From optimizing images to code minification, we take a comprehensive approach to enhance website performance and deliver a positive user experience.</p>
+                                <p>Great UI/UX design transforms how your business connects with customers. By prioritizing user needs, ZDart’s UI/UX services increase satisfaction, drive engagement, and turn visitors into loyal users—all of which fuel business growth.</p>
+                                <p>A well-designed interface enhances your digital presence, making your app or website stand out in a crowded market. Intuitive navigation and fast, responsive designs improve user trust, leading to higher retention, more conversions, and a stronger reputation.</p>
+                                <p>Our approach to UI/UX starts with understanding your audience and goals. We conduct user research, create wireframes, and iterate based on feedback to deliver designs that are both stunning and practical. Using tools like Figma and modern design principles, we ensure your product looks great and performs even better.</p>
+                                <p>ZDart’s team of UI/UX experts collaborates with you to align designs with your vision. From mobile apps to enterprise platforms, we craft experiences that boost usability, elevate your brand, and drive measurable results for your business.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
             <Footer />
-
         </div>
     );
 };

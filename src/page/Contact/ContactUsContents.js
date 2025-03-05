@@ -99,12 +99,21 @@ const ContactUsContents = () => {
 													<br /><b>Email:</b> anishkumarak8686@gmail.com.
 													<br /><b>Phone:</b> +91 88702 08686.</div>
 											</div>
-											<ul className="list-unstyled list-inline my-4 mx-3  social-icons">
-												<li className="list-inline-item me-3"><Link title="Explorer Facebook Profile" className="text-black" to="https://facebook.com/"><i className="fab fa-facebook-f"></i></Link>
+											<ul className="list-unstyled list-inline my-4 mx-3 social-icons">
+												<li className="list-inline-item me-3">
+													<Link title="Explore Facebook Profile" className="text-black" to="https://www.facebook.com/share/1DDZMAsiWK/?mibextid=wwXIfr">
+														<i className="fab fa-facebook-f"></i>
+													</Link>
 												</li>
-												<li className="list-inline-item me-3"><Link title="Explorer Twitter Profile" className="text-black" to="https://twitter.com/"><i className="fab fa-twitter"></i></Link>
+												<li className="list-inline-item me-3">
+													<Link title="Explore LinkedIn Profile" className="text-black" to="www.linkedin.com/in/anishkumar-a-0a1520235">
+														<i className="fab fa-linkedin-in"></i>
+													</Link>
 												</li>
-												<li className="list-inline-item me-3"><Link title="Explorer Instagram Profile" className="text-black" to="https://instagram.com/"><i className="fab fa-instagram"></i></Link>
+												<li className="list-inline-item me-3">
+													<Link title="Explore Instagram Profile" className="text-black" to="https://www.instagram.com/anish.ak05?igsh=OHNsaXdpcmZocmV3">
+														<i className="fab fa-instagram"></i>
+													</Link>
 												</li>
 											</ul>
 										</div>

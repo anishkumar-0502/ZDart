@@ -49,8 +49,7 @@ const ServiceContent = () => {
                                 <div className="icon"> <i class="bi bi-code-slash"></i>
                                 </div>
                                 <h3 className="mb-3">Web Design & Development</h3>
-                                <p className="mb-4">Looking to establish a stronger online presence? Our skilled web development team is here to design
-                                    and develop bespoke websites that align perfectly with your brand.</p> <Link className="btn btn-sm btn-outline-primary" to="/ServiceDetails01">View Details <i className="las la-arrow-right ms-1"></i></Link>
+                                <p className="mb-4">We create stunning, responsive, and user-friendly websites tailored to your business needs. From front-end aesthetics to robust back-end functionalities, we ensure your website stands out.</p> <Link className="btn btn-sm btn-outline-primary" to="/ServiceDetails01">View Details <i className="las la-arrow-right ms-1"></i></Link>
                             </div>
                         </div>
                         <div className="icon-box-item text-center col-lg-4 col-md-6 mb-4">
@@ -58,31 +57,31 @@ const ServiceContent = () => {
                                 <div className="icon"> <i class="bi bi-h-circle-fill"></i>
                                 </div>
                                 <h3 className="mb-3">scalable App solutions</h3>
-                                <p className="mb-4">Choose our hosting services for a swift, scalable, and customizable experience, precisely crafted to align with the individual demands of your website and business.</p> <Link className="btn btn-sm btn-outline-primary" to="/ServiceDetails02">View Details <i className="las la-arrow-right ms-1"></i></Link>
+                                <p className="mb-4">Build powerful, scalable applications that grow with your business. Our team specializes in developing high-performance apps with seamless user experiences and future-ready architecture.</p> <Link className="btn btn-sm btn-outline-primary" to="/ServiceDetails02">View Details <i className="las la-arrow-right ms-1"></i></Link>
                             </div>
                         </div>
                         <div className="icon-box-item text-center col-lg-4 col-md-6 mb-4">
                             <div className="rounded shadow py-5 px-4">
                                 <div className="icon"> <i class="bi bi-browser-chrome"></i>
                                 </div>
-                                <h3 className="mb-3">Web Vitals</h3>
-                                <p className="mb-4">We employ cutting-edge industry standards and tools to analyze and enhance the key metrics crucial for improving your website's performance and accessibility.</p> <Link className="btn btn-sm btn-outline-primary" to="/ServiceDetails03">View Details <i className="las la-arrow-right ms-1"></i></Link>
+                                <h3 className="mb-3">UI/UX</h3>
+                                <p className="mb-4">Craft intuitive and engaging user experiences with our expert UI/UX design services. We focus on usability, accessibility, and aesthetics to create interfaces that captivate user friendly interfaces.</p> <Link className="btn btn-sm btn-outline-primary" to="/ServiceDetails03">View Details <i className="las la-arrow-right ms-1"></i></Link>
                             </div>
                         </div>
                         <div className="icon-box-item text-center col-lg-4 col-md-6 mb-4">
                             <div className="rounded shadow py-5 px-4">
                                 <div className="icon"> <i class="bi bi-google"></i>
                                 </div>
-                                <h3 className="mb-3">SEO</h3>
-                                <p className="mb-4">Elevate your digital visibility with Web Innoventix SEO services. Utilizing proven tactics, our team works to enhance your search engine rankings and channel more traffic to your site.</p> <Link className="btn btn-sm btn-outline-primary" to="/ServiceDetails04">View Details <i className="las la-arrow-right ms-1"></i></Link>
+                                <h3 className="mb-3">Quality Assurance</h3>
+                                <p className="mb-4">Ensure flawless performance with our rigorous quality assurance and testing services. We conduct thorough testing to detect and fix bugs, ensuring a seamless and bug free user experience.</p> <Link className="btn btn-sm btn-outline-primary" to="/ServiceDetails04">View Details <i className="las la-arrow-right ms-1"></i></Link>
                             </div>
                         </div>
                         <div className="icon-box-item text-center col-lg-4 col-md-6 mb-4">
                             <div className="rounded shadow py-5 px-4">
                                 <div className="icon"> <i class="bi bi-body-text"></i>
                                 </div>
-                                <h3 className="mb-3">Content Writing</h3>
-                                <p className="mb-4">Make your message resonate with our professional writing services, where our adept writers specialize in crafting compelling website content and product descriptions.</p> <Link className="btn btn-sm btn-outline-primary" to="/ServiceDetails05">View Details <i className="las la-arrow-right ms-1"></i></Link>
+                                <h3 className="mb-3">Cloud Solutions</h3>
+                                <p className="mb-4">Leverage the power of the cloud with our scalable and secure solutions. From cloud storage to computing, we offer tailored services that enhance efficiency and flexibility for your business.</p> <Link className="btn btn-sm btn-outline-primary" to="/ServiceDetails05">View Details <i className="las la-arrow-right ms-1"></i></Link>
                             </div>
                         </div>
                     </div>

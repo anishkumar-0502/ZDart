@@ -11,13 +11,13 @@ const ServiceDetails2 = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-8 mx-auto text-center">
-                            <h2 className="mb-3 text-capitalize">Web Hosting</h2>
+                            <h2 className="mb-3 text-capitalize">Scalable App Solutions</h2>
                             <ul className="list-inline breadcrumbs text-capitalize" style={{ fontWeight: 500 }}>
                                 <li className="list-inline-item"><Link to="/">Home</Link>
                                 </li>
                                 <li className="list-inline-item">/ &nbsp; <Link to="/services">Services</Link>
                                 </li>
-                                <li className="list-inline-item">/ &nbsp; <Link to="/ServiceDetails01">Web Hosting</Link>
+                                <li className="list-inline-item">/ &nbsp; <Link to="/ServiceDetails01">Scalable App Solutions</Link>
                                 </li>
                             </ul>
                         </div>
@@ -49,14 +49,14 @@ const ServiceDetails2 = () => {
                     <div className="row g-5">
                         <div className="col-lg-4 mb-5 mb-lg-0">
                             <div className="bg-white shadow rounded-lg p-4 sticky-top" style={{ top: '30px' }}>
-                                <h4 className="has-line-end">Web Hosting</h4>
+                                <h4 className="has-line-end">Scalable App Solutions</h4>
                                 <nav id="TableOfContents">
                                     <ul>
-                                        <li><a href="#how-a-payday-loan-online-works">What is Web Hosting?</a>
+                                        <li><a href="#how-scalable-app-solutions-work">What is Scalable App Solutions?</a>
                                         </li>
-                                        <li><a href="#what-you-know-about-loans">Benefits</a>
+                                        <li><a href="#scalable-app-benefits">Benefits</a>
                                         </li>
-                                        <li><a href="#what-services-we-render">How does it boost your business?</a>
+                                        <li><a href="#how-we-boost-your-business">How does it boost your business?</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -64,40 +64,40 @@ const ServiceDetails2 = () => {
                         </div>
                         <div className="col-lg-8">
                             <div className="content">
-                                <h2 id="how-a-payday-loan-online-works">Web Hosting</h2>
-                                <p>Web hosting is a critical element for any website, determining its online presence and accessibility. It involves storing website files, images, and data on a server connected to the internet.</p>
-                                <p>A web hosting service provides the necessary technology and infrastructure for a website to be accessible to its audience through the internet. It ensures the website is always online, fast, and easily reachable by visitors.</p>
-                                <p>Web hosting providers offer the infrastructure and technologies to store website files on a server, a powerful computer connected to the internet. This allows anyone to access the website when they visit.</p>
-                                <p>Web hosting companies offer additional services, including domain name registration, email hosting, and tools for building websites.</p>
-                                <p>There are various types of web hosting services available to cater to different needs. These include shared hosting, dedicated hosting, cloud hosting, and virtual private server (VPS) hosting. The choice depends on website requirements, traffic volume, and budget.</p>
+                                <h2 id="how-scalable-app-solutions-work">What is Scalable App Solutions?</h2>
+                                <p>Scalable app solutions are essential for businesses looking to grow seamlessly in a digital world. They involve designing, developing, and deploying applications that can handle increasing user demand, data, and functionality without compromising performance.</p>
+                                <p>Our scalable app solutions provide the technology and architecture needed to ensure your application remains fast, reliable, and adaptable. Whether you're launching a startup app or upgrading an enterprise system, we make sure it scales effortlessly with your business.</p>
+                                <p>We build applications using modern frameworks, cloud infrastructure, and modular designs. This allows your app to expand its capacity—adding users, features, or data—whenever needed, all while staying accessible to your audience.</p>
+                                <p>ZDart offers additional services like app optimization, cloud integration, and ongoing maintenance to keep your solution future-proof and efficient.</p>
+                                <p>We provide various types of scalable app solutions to meet diverse needs, including cloud-native apps, microservices architectures, and serverless computing. The right choice depends on your business goals, user base, and technical requirements.</p>
                                 <hr />
-                                <h3 id="payday-loan-application-processing">Benefits</h3>
+                                <h3 id="scalable-app-benefits">Benefits</h3>
                                 <ul>
                                     <li>
-                                        <p><strong>Availability:</strong> Web hosting ensures your website is consistently available to customers, minimizing downtime.</p>
+                                        <p><strong>Flexibility:</strong> Our solutions adapt to your growth, supporting more users and features as your business expands.</p>
                                     </li>
                                     <li>
-                                        <p><strong>Security:</strong> It provides enhanced security features, safeguarding your website from threats like malware and hacking attempts.</p>
+                                        <p><strong>Security:</strong> Built-in security measures protect your app and user data from threats like breaches and cyberattacks.</p>
                                     </li>
                                     <li>
-                                        <p><strong>Reliability:</strong> Reliable web hosting maintains your website's availability, fostering trust and loyalty among customers.</p>
+                                        <p><strong>Reliability:</strong> Enjoy consistent uptime and performance, ensuring your app is always available to users.</p>
                                     </li>
                                     <li>
-                                        <p><strong>Performance:</strong> Good web hosting leads to faster website loading times, improving user experience and search engine rankings.</p>
+                                        <p><strong>Performance:</strong> Fast load times and smooth operation enhance user satisfaction and engagement.</p>
                                     </li>
                                     <li>
-                                        <p><strong>Support:</strong> Many web hosting providers offer 24/7 technical support, saving you time and money in resolving website issues.</p>
+                                        <p><strong>Support:</strong> Our 24/7 technical support team resolves issues quickly, keeping your app running smoothly.</p>
                                     </li>
                                     <li>
-                                        <p><strong>Professional Image:</strong> Hosting your website professionally contributes to a more credible and appealing brand image for potential customers.</p>
+                                        <p><strong>Competitive Edge:</strong> Scalable apps give your business the agility to innovate and stay ahead in the market.</p>
                                     </li>
                                 </ul>
                                 <hr />
-                                <h2 id="what-services-we-render">How does it boost your business?</h2>
-                                <p>Web hosting plays a crucial role in shaping a business's online presence. A reliable web hosting service ensures constant accessibility, allowing customers to explore products and services anytime, day or night. This capability enables businesses to operate 24/7, reaching a broader audience and boosting sales.</p>
-                                <p>Moreover, web hosting provides secure storage and management of website files, data, and applications. A quality web hosting provider offers various hosting plans catering to specific business needs. Whether it's shared hosting, dedicated hosting, or VPS hosting, businesses can choose a plan that aligns with their requirements and budget. With fast loading times, dependable uptime, and robust security features, web hosting empowers businesses to establish a strong online presence and build credibility with customers.</p>
-                                <p>Our approach to web hosting revolves around reliability, performance, and scalability. Our hosting solutions are meticulously designed to deliver an exceptional user experience, featuring swift page load speeds, 24/7 technical support, and user-friendly control panels.</p>
-                                <p>Our team of experts remains abreast of the latest technology and security updates to ensure your website stays secure and runs seamlessly. Whether you're hosting a small blog or a complex e-commerce site, we have the ideal hosting plan to meet your needs.</p>
+                                <h2 id="how-we-boost-your-business">How does it boost your business?</h2>
+                                <p>Scalable app solutions are key to driving business success in today’s competitive landscape. By ensuring your application can grow with demand, ZDart helps you reach more customers, improve operational efficiency, and unlock new opportunities—all without downtime or performance hiccups.</p>
+                                <p>Our solutions offer secure, efficient management of your app’s infrastructure, data, and features. We provide tailored plans—whether it’s a cloud-native app, a microservices setup, or a serverless solution—designed to match your business needs and budget. With high performance, reliable uptime, and robust scalability, we empower you to build a strong digital presence and earn customer trust.</p>
+                                <p>At ZDart, our approach focuses on performance, adaptability, and user experience. We craft scalable app solutions with cutting-edge technology, rapid deployment capabilities, and intuitive management tools to keep your business agile.</p>
+                                <p>Our expert team stays ahead of industry trends, delivering secure, high-performing apps that evolve with your vision. Whether you need a simple mobile app or a complex enterprise solution, ZDart has the perfect scalable plan to fuel your growth.</p>
                             </div>
                         </div>
                     </div>

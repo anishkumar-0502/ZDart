@@ -10,11 +10,11 @@ const Footer = () => {
                         <div className="footer-widget">
                             <h5 className="mb-4 text-primary font-secondary">Service</h5>
                             <ul className="list-unstyled">
-                                <li className="mb-2"><a href="service-details.html">Personal loans</a></li>
-                                <li className="mb-2"><a href="service-details.html">Home Equity Loans</a></li>
-                                <li className="mb-2"><a href="service-details.html">Student Loans</a></li>
-                                <li className="mb-2"><a href="service-details.html">Mortgage Loans</a></li>
-                                <li className="mb-2"><a href="service-details.html">Payday Loans</a></li>
+                                <li className="mb-2"><a href="service-details.html">Web Design & Development</a></li>
+                                <li className="mb-2"><a href="service-details.html">scalable App solutions</a></li>
+                                <li className="mb-2"><a href="service-details.html">UI/UX</a></li>
+                                <li className="mb-2"><a href="service-details.html">Quality Assurance</a></li>
+                                <li className="mb-2"><a href="service-details.html">Cloud Solutions</a></li>
                             </ul>
                         </div>
                     </div>

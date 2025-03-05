@@ -11,14 +11,11 @@ const ServiceDetails4 = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-8 mx-auto text-center">
-                            <h2 className="mb-3 text-capitalize">SEO</h2>
+                            <h2 className="mb-3 text-capitalize">Quality Assurance</h2>
                             <ul className="list-inline breadcrumbs text-capitalize" style={{ fontWeight: 500 }}>
-                                <li className="list-inline-item"><Link to="/">Home</Link>
-                                </li>
-                                <li className="list-inline-item">/ &nbsp; <Link to="/services">Services</Link>
-                                </li>
-                                <li className="list-inline-item">/ &nbsp; <Link to="/ServiceDetails01">SEO</Link>
-                                </li>
+                                <li className="list-inline-item"><Link to="/">Home</Link></li>
+                                <li className="list-inline-item">/ <Link to="/services">Services</Link></li>
+                                <li className="list-inline-item">/ <Link to="/ServiceDetails01">Quality Assurance</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -49,49 +46,45 @@ const ServiceDetails4 = () => {
                     <div className="row g-5">
                         <div className="col-lg-4 mb-5 mb-lg-0">
                             <div className="bg-white shadow rounded-lg p-4 sticky-top" style={{ top: '30px' }}>
-                                <h4 className="has-line-end">SEO</h4>
+                                <h4 className="has-line-end">Quality Assurance</h4>
                                 <nav id="TableOfContents">
                                     <ul>
-                                        <li><a href="#how-a-payday-loan-online-works">What is SEO?</a>
-                                        </li>
-                                        <li><a href="#what-you-know-about-loans">Benefits</a>
-                                        </li>
-                                        <li><a href="#what-services-we-render">How does it boost your business?</a>
-                                        </li>
+                                        <li><a href="#how-a-payday-loan-online-works">What is Quality Assurance?</a></li>
+                                        <li><a href="#payday-loan-application-processing">Benefits</a></li>
+                                        <li><a href="#what-services-we-render">How does it boost your business?</a></li>
                                     </ul>
                                 </nav>
                             </div>
                         </div>
                         <div className="col-lg-8">
                             <div className="content">
-                                <h2 id="how-a-payday-loan-online-works">Search Engine optimization(SEO)</h2>
-                                <p>Search Engine Optimization (SEO) is the strategic process of enhancing a website's ranking on search engines like Google, Bing, Yahoo, and others. It combines technical and creative methodologies to boost website visibility, attract relevant traffic, and foster organic growth. The primary objective of SEO is to augment both the quality and quantity of organic traffic by enhancing a website's relevance, authority, and user experience.</p>
-                                <p>SEO employs a diverse range of techniques and strategies, including the optimization of website structure and content, meticulous keyword research, the establishment of high-quality backlinks, and data analysis for continuous refinement of the SEO strategy. The ultimate aim of SEO is to draw more organic traffic to a website, resulting in heightened brand visibility, increased conversion rates, and ultimately, improved business outcomes. By concentrating on elevating search engine rankings, businesses can extend their online reach and attract a larger pool of potential customers to their website.</p>
+                                <h2 id="how-a-payday-loan-online-works">What is Quality Assurance?</h2>
+                                <p>Quality Assurance (QA) is a systematic process to ensure that software products meet the highest standards of performance, reliability, and user satisfaction. At ZDart, our QA services focus on identifying and resolving issues before they reach your users, delivering flawless digital solutions.</p>
+                                <p>QA encompasses a range of techniques, including manual testing, automated testing, performance testing, and security audits. By integrating these methods, we ensure your applications—whether web, mobile, or enterprise—are bug-free, secure, and optimized for real-world use.</p>
+                                <p>Our QA process begins with understanding your project requirements, followed by creating detailed test plans, executing rigorous testing cycles, and providing actionable feedback. This proactive approach minimizes risks, enhances functionality, and ensures a seamless user experience.</p>
+                                <p>ZDart’s QA services go beyond finding bugs—we aim to elevate the overall quality of your software, making it robust, scalable, and ready to meet your business goals.</p>
                                 <hr />
                                 <h3 id="payday-loan-application-processing">Benefits</h3>
                                 <ul>
-                                    <li>SEO enhances your website's visibility in search engine results, facilitating easy discovery by potential customers.</li>
-                                    <li>Optimizing your website for search engines improves its user experience, making navigation more seamless for users.</li>
-                                    <li>SEO is a cost-effective marketing strategy, allowing businesses to reach a broad audience while saving on costs.</li>
-                                    <li>Increased visibility and improved user experience contribute to higher website traffic, leading to enhanced conversions and sales.</li>
-                                    <li>A higher ranking in search engine results boosts brand awareness, exposing the business to a larger audience.</li>
-                                    <li>Unlike paid advertising with budget limitations, SEO's benefits are enduring as long as the website remains optimized.</li>
+                                    <li>Improved software reliability by catching and fixing issues early in the development cycle.</li>
+                                    <li>Enhanced user satisfaction through smooth, error-free experiences that build trust.</li>
+                                    <li>Cost savings by reducing the need for post-launch fixes and maintenance.</li>
+                                    <li>Increased security with thorough testing to protect against vulnerabilities and threats.</li>
+                                    <li>Faster time-to-market with efficient testing processes that streamline development.</li>
+                                    <li>Stronger brand reputation with high-quality, dependable software that stands out in the market.</li>
                                 </ul>
                                 <hr />
                                 <h2 id="what-services-we-render">How does it boost your business?</h2>
-                                <p>Implementing SEO provides businesses with a significant boost in online visibility, attracting more qualified leads, and ultimately improving their bottom line.</p>
-                                <p>SEO helps businesses establish themselves as an authority in their industry, build brand awareness, and strengthen their reputation among customers.</p>
-                                <p>Additionally, SEO is a cost-effective marketing strategy, allowing businesses to save money while still reaching a large audience.</p>
-                                <p>Higher visibility and a better user experience can lead to increased traffic to your website, resulting in higher conversions and sales.</p>
-                                <p>A higher website ranking in search engine results pages can help increase brand awareness as more people are exposed to the business.</p>
-                                <p>Unlike paid advertising, which stops when the budget runs out, the benefits of SEO are long-lasting, as long as the website continues to be optimized, it will continue to rank well in search engine results pages.</p>
+                                <p>Quality Assurance is a game-changer for businesses relying on software. ZDart’s QA services ensure your applications perform flawlessly, driving customer satisfaction, loyalty, and ultimately, revenue growth.</p>
+                                <p>By delivering bug-free, secure, and high-performing software, QA helps establish your business as a trusted leader in your industry. A reliable product reduces user complaints, enhances credibility, and strengthens your brand’s reputation.</p>
+                                <p>Our QA approach is tailored to your needs, using cutting-edge tools and methodologies like Selenium, JMeter, and manual expertise. We test for functionality, usability, performance, and security, ensuring your software meets both user expectations and business objectives.</p>
+                                <p>With ZDart’s QA, you save time and resources by catching issues early, avoiding costly rework. Whether it’s a mobile app or a complex system, our rigorous testing accelerates deployment while maintaining top-tier quality, giving your business a competitive edge.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
             <Footer />
-
         </div>
     );
 };

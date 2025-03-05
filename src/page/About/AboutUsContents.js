@@ -239,9 +239,8 @@ const AboutUsContents = () => {
 						<div className="col-12">
 							<div className="section-title text-center">
 								<p className="text-primary text-uppercase fw-bold mb-3">Questions You Have</p>
-								<h1>People Behind Us</h1>
-								<p className="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing . egestas
-									<br />cursus pellentesque dignissim dui, congue. Vel etiam ut</p>
+								<h1>People Behind ZDart</h1>
+								<p className="mb-0">At ZDart, our team of skilled professionals drives innovation and excellence in software services. <br />We’re here to answer your questions and deliver solutions tailored to your needs.</p>
 							</div>
 						</div>
 					</div>
