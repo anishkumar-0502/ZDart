@@ -59,7 +59,7 @@ const ContactUsContents = () => {
 									</div>
 									<div className="col-lg-6">
 										<div className="contact-form">
-											<form action="https://formcarry.com/s/9BPIGr8Kl_w" method="post">
+											<form action="https://formcarry.com/s/mr4nrbqVt5R" method="post">
 												<div className="form-group mb-4 pb-2">
 													<label htmlFor="contact_name" className="form-label">Full Name</label>
 													<input type="text" className="form-control shadow-none" id="contact_name" name="contact_name" />

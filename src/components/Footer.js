@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Logo from "../assets/images/logo/Zdart.png";
 
 const Footer = () => {
     return (
@@ -8,17 +9,17 @@ const Footer = () => {
                 <div className="row justify-content-between">
                     <div className="col-lg-2 col-md-4 col-6 mb-4">
                         <div className="footer-widget">
-                            <h5 className="mb-4 text-primary font-secondary">Service</h5>
+                            <h5 className="mb-4 text-primary font-secondary">Our Service</h5>
                             <ul className="list-unstyled">
-                                <li className="mb-2"><a href="service-details.html">Web Design & Development</a></li>
-                                <li className="mb-2"><a href="service-details.html">scalable App solutions</a></li>
-                                <li className="mb-2"><a href="service-details.html">UI/UX</a></li>
-                                <li className="mb-2"><a href="service-details.html">Quality Assurance</a></li>
-                                <li className="mb-2"><a href="service-details.html">Cloud Solutions</a></li>
+                                <li className="mb-2"><a href="/ServiceDetails01">Web Design & Development</a></li>
+                                <li className="mb-2"><a href="/ServiceDetails02">scalable App solutions</a></li>
+                                <li className="mb-2"><a href="/ServiceDetails03">UI/UX</a></li>
+                                <li className="mb-2"><a href="/ServiceDetails04">Quality Assurance</a></li>
+                                <li className="mb-2"><a href="/ServiceDetails05">Cloud Solutions</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div className="col-lg-2 col-md-4 col-6 mb-4">
+                    {/* <div className="col-lg-2 col-md-4 col-6 mb-4">
                         <div className="footer-widget">
                             <h5 className="mb-4 text-primary font-secondary">About</h5>
                             <ul className="list-unstyled">
@@ -28,21 +29,21 @@ const Footer = () => {
                                 <li className="mb-2"><a href="#!">Team</a></li>
                             </ul>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="col-lg-2 col-md-4 col-6 mb-4">
                         <div className="footer-widget">
-                            <h5 className="mb-4 text-primary font-secondary">Help</h5>
+                            <h5 className="mb-4 text-primary font-secondary">Help & Support</h5>
                             <ul className="list-unstyled">
-                                <li className="mb-2"><a href="contact.html">Contact Us</a></li>
-                                <li className="mb-2"><a href="faq.html">FAQs</a></li>
+                                <li className="mb-2"><a href="/contact">Contact Us</a></li>
+                                <li className="mb-2"><a href="/FAQ">FAQs</a></li>
                             </ul>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-12 newsletter-form">
                         <div style={{ backgroundColor: '#F4F4F4', padding: '35px' }}>
-                            <h5 className="mb-4 text-primary font-secondary">Subscribe</h5>
+                            <h5 className="mb-4 text-primary font-secondary">Connect with Us</h5>
                             <div className="pe-0 pe-xl-5">
-                                <form action="https://formcarry.com/s/OAJf1BfBSbu" method="post" name="mc-embedded-subscribe-form" target="_blank">
+                                <form action="https://formcarry.com/s/mr4nrbqVt5R" method="post" name="mc-embedded-subscribe-form" target="_blank">
                                     <div className="input-group mb-3">
                                         <input type="email" className="form-control shadow-none bg-white border-end-0" placeholder="Email address" name="email" />
                                         <span className="input-group-text border-0 p-0">
@@ -56,28 +57,35 @@ const Footer = () => {
                                     </div>
                                 </form>
                             </div>
-                            <p className="mb-0">Lorem ipsum dolor sit amet, rdghds consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat</p>
-                        </div>
+                            <p className="mb-0">
+                                Stay updated with ZDart’s latest software solutions, industry insights, and exclusive offers. Subscribe to our newsletter and let’s build the future of technology together!
+                            </p>                        </div>
                     </div>
                 </div>
                 <div className="row align-items-center mt-5 text-center text-md-start">
                     <div className="col-lg-4">
-                        <Link to="/">
-                            {/* <img loading="prelaod" decoding="async" className="img-fluid" width="160" src="images/logo.png" alt="Wallet" /> */}
-                            <h1>ZDart<span>.</span></h1>
+                        <Link to="/" className="d-flex align-items-center">
+                            <img
+                                loading="preload"
+                                decoding="async"
+                                className="img-fluid me-1"
+                                width="50"
+                                src={Logo}
+                                alt="ZDart"
+                            />
+                            <h1 className="mb-0">ZDart<span>.</span></h1>
                         </Link>
-
                     </div>
                     <div className="col-lg-4 col-md-6 mt-4 mt-lg-0">
                         <ul className="list-unstyled list-inline mb-0 text-lg-center">
-                            <li className="list-inline-item me-4"><a className="text-black" href="privacy-policy.html">Privacy Policy</a></li>
-                            <li className="list-inline-item me-4"><a className="text-black" href="terms.html">Terms &amp; Conditions</a></li>
+                            <li className="list-inline-item me-4"><a className="text-black" href="/privacy-policy">Privacy Policy</a></li>
+                            <li className="list-inline-item me-4"><a className="text-black" href="/terms">Terms &amp; Conditions</a></li>
                         </ul>
                     </div>
                     <div className="col-lg-4 col-md-6 text-md-end mt-4 mt-md-0">
                         <ul className="list-unstyled list-inline mb-0 social-icons">
                             <li className="list-inline-item me-3"><a title="Explorer Facebook Profile" className="text-black" href="https://facebook.com/"><i className="fab fa-facebook-f"></i></a></li>
-                            <li className="list-inline-item me-3"><a title="Explorer Twitter Profile" className="text-black" href="https://twitter.com/"><i className="fab fa-twitter"></i></a></li>
+                            <li className="list-inline-item me-3"><a title="Explorer Linkdin Profile" className="text-black" href="https://www.linkedin.com/in/zdart"><i className="fab fa-linkedin-in"></i></a></li>
                             <li className="list-inline-item me-3"><a title="Explorer Instagram Profile" className="text-black" href="https://instagram.com/"><i className="fab fa-instagram"></i></a></li>
                         </ul>
                     </div>

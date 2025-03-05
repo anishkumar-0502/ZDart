@@ -53,13 +53,19 @@ const HowItWorksContents = () => {
                         <div className="col-lg-6 mt-5 mt-lg-0">
                             <div className="has-video-popup position-relative">
                                 <img loading="lazy" decoding="async" src={thumb} alt="video thumb" className="rounded-lg w-100" />
-                                <button type="button" className="video-play-btn border-0 bg-transparent" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/dyZcRRWiuuw" data-bs-target="#videoModal">
+                                {/* <button
+                                    type="button"
+                                    className="video-play-btn border-0 bg-transparent"
+                                    data-bs-toggle="modal"
+                                    data-src="/videos/ZDart.mp4"
+                                    data-bs-target="#videoModal">
                                     <svg className="text-primary" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <circle cx="45" cy="45" r="45" fill="currentColor" fillOpacity="0.4" />
                                         <circle cx="44.9995" cy="45" r="37.437" fill="currentColor" />
                                         <path d="M58.2354 44.9999L38.3824 56.462L38.3824 33.5378L58.2354 44.9999Z" fill="white" />
                                     </svg>
-                                </button>
+                                </button> */}
+
                             </div>
                         </div>
                     </div>
