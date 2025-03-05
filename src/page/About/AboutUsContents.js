@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import abt1 from '../../assets/images/about/about-11.jpg';
-import p1 from '../../assets/images/about/team-1.jpg';
-import p2 from '../../assets/images/about/team-2.jpg';
-import p3 from '../../assets/images/about/team-3.jpg';
+// import p1 from '../../assets/images/about/Anish.PNG';
+// import p2 from '../../assets/images/about/Kamali.JPEG';
+import Avatar from '../../assets/images/about/Avatar.jpg';
 
 const AboutUsContents = () => {
 	return (
@@ -249,79 +249,123 @@ const AboutUsContents = () => {
 						<div className="col-xl-3 col-lg-4 col-md-6 mt-4">
 							<div className="card bg-transparent border-0 text-center">
 								<div className="card-img">
-									<img loading="lazy" decoding="async" src={p1} alt="Scarlet Pena" className="rounded w-100" width="300" height="332" />
+									<img loading="lazy" decoding="async" src={Avatar} alt="Scarlet Pena" className="rounded w-100" width="300" height="332" />
 									<ul className="card-social list-inline">
-										<li className="list-inline-item"><Link className="facebook" to="#"><i className="fab fa-facebook"></i></Link>
+										<li className="list-inline-item">
+											<Link className="facebook" to="https://www.facebook.com/share/1DDZMAsiWK/?mibextid=wwXIfr"><i className="fab fa-facebook"></i></Link>
 										</li>
-										<li className="list-inline-item"><Link className="twitter" to="#"><i className="fab fa-twitter"></i></Link>
+										<li className="list-inline-item">
+											<Link className="linkedin" to="www.linkedin.com/in/anishkumar-a-0a1520235"><i className="fab fa-linkedin"></i></Link>
 										</li>
-										<li className="list-inline-item"><Link className="instagram" to="#"><i className="fab fa-instagram"></i></Link>
+										<li className="list-inline-item">
+											<Link className="instagram" to="https://www.instagram.com/anish.ak05?igsh=OHNsaXdpcmZocmV3"><i className="fab fa-instagram"></i></Link>
 										</li>
 									</ul>
 								</div>
+
 								<div className="card-body">
-									<h3>Scarlet Pena</h3>
-									<p>Instructor</p>
+									<h3>Anish Kumar A</h3>
+									<p>Founder & CEO</p>
 								</div>
 							</div>
 						</div>
+
 						<div className="col-xl-3 col-lg-4 col-md-6 mt-4">
+							<div className="card bg-transparent border-0 text-center">
+								<div className="card-img">
+									<img loading="lazy" decoding="async" src={Avatar} alt="Scarlet Pena" className="rounded w-100" width="300" height="332" />
+									<ul className="card-social list-inline">
+										<li className="list-inline-item">
+											<Link className="facebook" to="https://www.facebook.com/share/1DDZMAsiWK/?mibextid=wwXIfr"><i className="fab fa-facebook"></i></Link>
+										</li>
+										<li className="list-inline-item">
+											<Link className="linkedin" to="www.linkedin.com/in/anishkumar-a-0a1520235"><i className="fab fa-linkedin"></i></Link>
+										</li>
+										<li className="list-inline-item">
+											<Link className="instagram" to="https://www.instagram.com/anish.ak05?igsh=OHNsaXdpcmZocmV3"><i className="fab fa-instagram"></i></Link>
+										</li>
+									</ul>
+								</div>
+
+								<div className="card-body">
+									<h3> ---- </h3>
+									<p>Designation</p>
+								</div>
+							</div>
+						</div>
+
+						<div className="col-xl-3 col-lg-4 col-md-6 mt-4">
+							<div className="card bg-transparent border-0 text-center">
+								<div className="card-img">
+									<img loading="lazy" decoding="async" src={Avatar} alt="Scarlet Pena" className="rounded w-100" width="300" height="332" />
+									<ul className="card-social list-inline">
+										<li className="list-inline-item">
+											<Link className="facebook" to="https://www.facebook.com/share/1DDZMAsiWK/?mibextid=wwXIfr"><i className="fab fa-facebook"></i></Link>
+										</li>
+										<li className="list-inline-item">
+											<Link className="linkedin" to="www.linkedin.com/in/anishkumar-a-0a1520235"><i className="fab fa-linkedin"></i></Link>
+										</li>
+										<li className="list-inline-item">
+											<Link className="instagram" to="https://www.instagram.com/anish.ak05?igsh=OHNsaXdpcmZocmV3"><i className="fab fa-instagram"></i></Link>
+										</li>
+									</ul>
+								</div>
+
+								<div className="card-body">
+									<h3> ---- </h3>
+									<p>Designation</p>
+								</div>
+							</div>
+						</div>
+
+						<div className="col-xl-3 col-lg-4 col-md-6 mt-4">
+							<div className="card bg-transparent border-0 text-center">
+								<div className="card-img">
+									<img loading="lazy" decoding="async" src={Avatar} alt="Scarlet Pena" className="rounded w-100" width="300" height="332" />
+									<ul className="card-social list-inline">
+										<li className="list-inline-item">
+											<Link className="facebook" to="https://www.facebook.com/share/1DDZMAsiWK/?mibextid=wwXIfr"><i className="fab fa-facebook"></i></Link>
+										</li>
+										<li className="list-inline-item">
+											<Link className="linkedin" to="www.linkedin.com/in/anishkumar-a-0a1520235"><i className="fab fa-linkedin"></i></Link>
+										</li>
+										<li className="list-inline-item">
+											<Link className="instagram" to="https://www.instagram.com/anish.ak05?igsh=OHNsaXdpcmZocmV3"><i className="fab fa-instagram"></i></Link>
+										</li>
+									</ul>
+								</div>
+
+								<div className="card-body">
+									<h3> ---- </h3>
+									<p>Designation</p>
+								</div>
+							</div>
+						</div>
+
+
+						{/* <div className="col-xl-3 col-lg-4 col-md-6 mt-4">
 							<div className="card bg-transparent border-0 text-center">
 								<div className="card-img">
 									<img loading="lazy" decoding="async" src={p2} alt="Claire Simmmons" className="rounded w-100" width="300" height="333" />
 									<ul className="card-social list-inline">
-										<li className="list-inline-item"><Link className="facebook" to="#"><i className="fab fa-facebook"></i></Link>
+										<li className="list-inline-item">
+											<Link className="facebook" to="#"><i className="fab fa-facebook"></i></Link>
 										</li>
-										<li className="list-inline-item"><Link className="twitter" to="#"><i className="fab fa-twitter"></i></Link>
+										<li className="list-inline-item">
+											<Link className="linkedin" to="https://www.linkedin.com/in/kamali-v-a4530121b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i className="fab fa-linkedin"></i></Link>
 										</li>
-										<li className="list-inline-item"><Link className="instagram" to="#"><i className="fab fa-instagram"></i></Link>
-										</li>
-									</ul>
-								</div>
-								<div className="card-body">
-									<h3>Claire Simmmons</h3>
-									<p>Founder</p>
-								</div>
-							</div>
-						</div>
-						<div className="col-xl-3 col-lg-4 col-md-6 mt-4">
-							<div className="card bg-transparent border-0 text-center">
-								<div className="card-img">
-									<img loading="lazy" decoding="async" src={p3} alt="Leslie Pena" className="rounded w-100" width="300" height="333" />
-									<ul className="card-social list-inline">
-										<li className="list-inline-item"><Link className="facebook" to="#"><i className="fab fa-facebook"></i></Link>
-										</li>
-										<li className="list-inline-item"><Link className="twitter" to="#"><i className="fab fa-twitter"></i></Link>
-										</li>
-										<li className="list-inline-item"><Link className="instagram" to="#"><i className="fab fa-instagram"></i></Link>
+										<li className="list-inline-item">
+											<Link className="instagram" to="https://www.instagram.com/kamali_vijayakumar20/profilecard/?igsh=MTBjNmhpZTY5bGV1dw=="><i className="fab fa-instagram"></i></Link>
 										</li>
 									</ul>
 								</div>
 								<div className="card-body">
-									<h3>Leslie Pena</h3>
-									<p>Director</p>
+									<h3>Kamali V</h3>
+									<p>CTO</p>
 								</div>
 							</div>
-						</div>
-						<div className="col-xl-3 col-lg-4 col-md-6 mt-4">
-							<div className="card bg-transparent border-0 text-center">
-								<div className="card-img">
-									<img loading="lazy" decoding="async" src={p1} alt="Scarlet Pena" className="rounded w-100" width="300" height="332" />
-									<ul className="card-social list-inline">
-										<li className="list-inline-item"><Link className="facebook" to="#"><i className="fab fa-facebook"></i></Link>
-										</li>
-										<li className="list-inline-item"><Link className="twitter" to="#"><i className="fab fa-twitter"></i></Link>
-										</li>
-										<li className="list-inline-item"><Link className="instagram" to="#"><i className="fab fa-instagram"></i></Link>
-										</li>
-									</ul>
-								</div>
-								<div className="card-body">
-									<h3>Scarlet Pena</h3>
-									<p>Instructor</p>
-								</div>
-							</div>
-						</div>
+						</div> */}
+
 					</div>
 				</div>
 			</section>
