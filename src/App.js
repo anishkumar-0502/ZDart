@@ -24,7 +24,7 @@ const App = () => {
 
   return (
     <Router>
-      <Route exact path="/ZDart" component={Home} />
+      <Route exact path="/" component={Home} />
       <Route path="/about" component={About} />
       <Route path="/how-it-works" component={HowItWorks} />
       {/* //Service */}
