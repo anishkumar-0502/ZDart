@@ -57,7 +57,7 @@ const ServiceContent = () => {
                             <div className="rounded shadow py-5 px-4">
                                 <div className="icon"> <i class="bi bi-h-circle-fill"></i>
                                 </div>
-                                <h3 className="mb-3">Web Hosting</h3>
+                                <h3 className="mb-3">scalable App solutions</h3>
                                 <p className="mb-4">Choose our hosting services for a swift, scalable, and customizable experience, precisely crafted to align with the individual demands of your website and business.</p> <Link className="btn btn-sm btn-outline-primary" to="/ServiceDetails02">View Details <i className="las la-arrow-right ms-1"></i></Link>
                             </div>
                         </div>
