@@ -62,7 +62,7 @@ const Footer = () => {
                 </div>
                 <div className="row align-items-center mt-5 text-center text-md-start">
                     <div className="col-lg-4">
-                        <Link to="/ZDart">
+                        <Link to="/">
                             {/* <img loading="prelaod" decoding="async" className="img-fluid" width="160" src="images/logo.png" alt="Wallet" /> */}
                             <h1>ZDart<span>.</span></h1>
                         </Link>

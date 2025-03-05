@@ -14,7 +14,7 @@ const Terms = () => {
                         <div className="col-8 mx-auto text-center">
                             <h2 className="mb-3 text-capitalize">Terms & Conditions</h2>
                             <ul className="list-inline breadcrumbs text-capitalize" style={{ fontWeight: 500 }}>
-                                <li className="list-inline-item"><Link to="/ZDart">Home</Link>
+                                <li className="list-inline-item"><Link to="/">Home</Link>
                                 </li>
                                 <li className="list-inline-item">/ &nbsp; <Link to="/Terms">Terms & Conditions</Link>
                                 </li>
