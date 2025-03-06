@@ -42,6 +42,16 @@ const Header = () => {
               <li className="nav-item"><Link className="nav-link" to="/services">Services</Link></li>
               <li className="nav-item"><Link className="nav-link" to="/contact">Contact</Link></li>
               <li className="nav-item dropdown">
+                <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pricing</a>
+                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><Link className="dropdown-item" to="/ServiceDetails01">Web Design &amp; Development</Link></li>
+                  <li><Link className="dropdown-item" to="/ServiceDetails02">scalable App Solutions</Link></li>
+                  <li><Link className="dropdown-item" to="/ServiceDetails03">UI/UX</Link></li>
+                  <li><Link className="dropdown-item" to="/ServiceDetails04">Quality Assurance</Link></li>
+                  <li><Link className="dropdown-item" to="/ServiceDetails05">Cloud Solutions</Link></li>
+                </ul>
+              </li>
+              <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Legal</a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><Link className="dropdown-item" to="/FAQ">FAQ's</Link></li>
