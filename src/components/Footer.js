@@ -90,7 +90,7 @@ const Footer = () => {
                                     <i className="fas fa-envelope"></i>
                                 </a></li>
                             <li className="list-inline-item me-3"><a title="Explorer Linkdin Profile" className="text-black" href="https://www.linkedin.com/company/zdart/"><i className="fab fa-linkedin-in"></i></a></li>
-                            <li className="list-inline-item me-3"><a title="Explorer Instagram Profile" className="text-black" href="https://instagram.com/"><i className="fab fa-instagram"></i></a></li>
+                            <li className="list-inline-item me-3"><a title="Explorer Instagram Profile" className="text-black" href="https://www.instagram.com/zdart.tech?igsh=NDdzbnhmYnVkZ2Ft"><i className="fab fa-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>

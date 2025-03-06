@@ -113,7 +113,7 @@ const ContactUsContents = () => {
 													</Link>
 												</li>
 												<li className="list-inline-item me-3">
-													<Link title="Explore Instagram Profile" className="text-black" to="https://www.instagram.com/anish.ak05?igsh=OHNsaXdpcmZocmV3">
+													<Link title="Explore Instagram Profile" className="text-black" to="https://www.instagram.com/zdart.tech?igsh=NDdzbnhmYnVkZ2Ft">
 														<i className="fab fa-instagram"></i>
 													</Link>
 												</li>
