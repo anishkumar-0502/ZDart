@@ -84,7 +84,11 @@ const Footer = () => {
                     </div>
                     <div className="col-lg-4 col-md-6 text-md-end mt-4 mt-md-0">
                         <ul className="list-unstyled list-inline mb-0 social-icons">
-                            <li className="list-inline-item me-3"><a title="Explorer Facebook Profile" className="text-black" href="https://facebook.com/"><i className="fab fa-facebook-f"></i></a></li>
+                            <li className="list-inline-item me-3">
+                                <a title="Send an Email" className="text-black"
+                                    href="mailto:zdart2026@gmail.com?subject=Inquiry&body=Hello, I would like to know more about...">
+                                    <i className="fas fa-envelope"></i>
+                                </a></li>
                             <li className="list-inline-item me-3"><a title="Explorer Linkdin Profile" className="text-black" href="https://www.linkedin.com/company/zdart/"><i className="fab fa-linkedin-in"></i></a></li>
                             <li className="list-inline-item me-3"><a title="Explorer Instagram Profile" className="text-black" href="https://instagram.com/"><i className="fab fa-instagram"></i></a></li>
                         </ul>

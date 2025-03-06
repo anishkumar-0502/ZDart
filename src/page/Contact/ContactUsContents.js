@@ -88,25 +88,27 @@ const ContactUsContents = () => {
 											<br />
 											<div className="block mx-0 mx-lg-3 mt-4">
 												<h4 className="h5">Office Location</h4>
-												<div className="content">40F Vealmurugan Street
-													<br />Coimbatore 641035,
-													<br />Tamil Nadu, India</div>
+												<div className="content">No 1, 2nd floor 7th main Rd
+													<br />Bengaluru 560076,
+													<br />Karnataka, India</div>
 											</div>
 											<br />
 											<div className="block mx-0 mx-lg-3 mt-4">
 												<h4 className="h5">Contact Us</h4>
-												<div className="content">AnishKumar HR @ <b>ZDart.</b>
-													<br /><b>Email:</b> anishkumarak8686@gmail.com.
+												<div className="content"> @<b>ZDart.tech</b>
+													<br /><b>Email:</b> zdart2026@gmail.com.
 													<br /><b>Phone:</b> +91 88702 08686.</div>
 											</div>
 											<ul className="list-unstyled list-inline my-4 mx-3 social-icons">
 												<li className="list-inline-item me-3">
-													<Link title="Explore Facebook Profile" className="text-black" to="https://www.facebook.com/share/1DDZMAsiWK/?mibextid=wwXIfr">
-														<i className="fab fa-facebook-f"></i>
-													</Link>
+													<a title="Send an Email" className="text-black"
+														href="mailto:zdart2026@gmail.com?subject=Inquiry&body=Hello, I would like to know more about...">
+														<i className="fas fa-envelope"></i>
+													</a>
+
 												</li>
 												<li className="list-inline-item me-3">
-													<Link title="Explore LinkedIn Profile" className="text-black" to="www.linkedin.com/in/anishkumar-a-0a1520235">
+													<Link title="Explore LinkedIn Profile" className="text-black" to="https://www.linkedin.com/company/zdart/">
 														<i className="fab fa-linkedin-in"></i>
 													</Link>
 												</li>

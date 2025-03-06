@@ -55,7 +55,7 @@ const ServiceDetails1 = () => {
                                     <ul>
                                         <li><a href="#how-a-payday-loan-online-works">What is Web Design & Development?</a>
                                         </li>
-                                        <li><a href="#what-you-know-about-loans">Benefits</a>
+                                        <li><a href="#payday-loan-application-processing">Benefits</a>
                                         </li>
                                         <li><a href="#what-services-we-render">How does it boost your business?</a>
                                         </li>
