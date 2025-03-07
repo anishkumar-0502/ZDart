@@ -4,8 +4,8 @@
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
-  <!-- Updated viewport meta tag to disable zooming -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no, maximum-scale=1, minimum-scale=1">
+  <!-- Updated viewport meta tag to allow scrolling while disabling zoom -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- SEO Meta Tags -->
   <meta name="description" content="ZDart - Innovative tech solutions for seamless digital experiences. Explore our cutting-edge services in AI, software development, and more.">
@@ -46,12 +46,14 @@
 
   <title>ZDart</title>
 
-  <!-- Inline CSS to disable touch zooming -->
+  <!-- Inline CSS to disable touch zooming while allowing scrolling -->
   <style>
     html, body {
-      touch-action: manipulation; /* Disables pinch-zoom and double-tap zoom */
+      touch-action: pan-y; /* Allows vertical scrolling, disables pinch-zoom and double-tap zoom */
       -webkit-user-select: none; /* Prevents text selection on double-tap (iOS) */
       user-select: none; /* Prevents text selection on double-tap */
+      overflow-x: hidden; /* Prevents horizontal scrolling if not needed */
+      height: 100%; /* Ensure full height for scrolling */
     }
   </style>
 </head>
@@ -87,9 +89,9 @@
       lastTouchEnd = now;
     }, { passive: false });
 
-    // Prevent pinch-zoom on mobile
+    // Prevent pinch-zoom on mobile without blocking scrolling
     document.addEventListener('touchmove', function (event) {
-      if (event.scale !== 1) {
+      if (event.touches.length > 1 && event.scale !== 1) { // Only prevent if pinch-zoom is detected
         event.preventDefault();
       }
     }, { passive: false });
