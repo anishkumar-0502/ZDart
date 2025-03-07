@@ -3,7 +3,7 @@
 
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../assets/images/logo/Zdart.png";
+import Logo from "../assets/images/logo/zdart.svg";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
