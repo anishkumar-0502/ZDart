@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import abt1 from '../../assets/images/about/about-11.jpg';
 // import p1 from '../../assets/images/about/Anish.PNG';
 // import p2 from '../../assets/images/about/Kamali.JPEG';
-import Avatar from '../../assets/images/about/Avatar.jpg';
+// import Avatar from '../../assets/images/about/Avatar.jpg';
 
 const AboutUsContents = () => {
 	return (
@@ -233,7 +233,7 @@ const AboutUsContents = () => {
 			</section>
 
 			{/* //Middle Content  6 */}
-			<section className="section teams">
+			{/* <section className="section teams">
 				<div className="container">
 					<div className="row justify-content-center">
 						<div className="col-12">
@@ -363,11 +363,13 @@ const AboutUsContents = () => {
 									<p>CTO</p>
 								</div>
 							</div>
-						</div> */}
+						</div> 
 
 					</div>
 				</div>
 			</section>
+		 */}
+
 		</div>
 	);
 };
