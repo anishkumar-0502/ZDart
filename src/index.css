@@ -109,3 +109,125 @@ code {
     font-size: 12px;
     color: #007bff;
 }
+
+
+/* Pricing */
+.pricing-card {
+  border-radius: 20px;
+  padding: 2rem;
+  text-align: center;
+  height: 100%;
+  transition: transform 0.3s ease;
+  color: #000000; /* Set default text color to black for all pricing cards */
+}
+
+.pricing-card.bg-purple {
+  background-color: #44cd5286; /* Note: This is a light green with transparency (rgba) */
+  color: #000000; /* Explicitly set text to black for purple background */
+}
+
+.pricing-card.bg-white {
+  background-color: #fff;
+  color: #000000; /* Explicitly set text to black for white background */
+}
+
+.pricing-card:hover {
+  transform: translateY(-5px);
+}
+
+.btn-rounded-pill {
+  border-radius: 50px;
+}
+
+.form-switch .form-check-input {
+  width: 3rem;
+  height: 1.5rem;
+}
+
+.form-switch .form-check-input:checked {
+  background-color: #45e95672;
+  border-color: #45e95672;
+}
+
+
+.tech-stack-container {
+  margin-top: 2rem;
+}
+
+.tech-stack-heading {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #6c757d; /* Bootstrap's text-muted color */
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.tech-stack-list {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 1rem;
+  padding: 0.5rem;
+  scrollbar-width: thin;
+  scrollbar-color: #6c757d #e9ecef;
+}
+
+/* Hide scrollbar for Webkit browsers (Chrome, Safari) */
+.tech-stack-list::-webkit-scrollbar {
+  height: 8px;
+}
+
+.tech-stack-list::-webkit-scrollbar-thumb {
+  background-color: #6c757d;
+  border-radius: 4px;
+}
+
+.tech-stack-list::-webkit-scrollbar-track {
+  background: #e9ecef;
+}
+
+.tech-stack-item {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #59d079, #b5ddb2); /* Purple to blue gradient */
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tech-stack-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.tech-stack-item i {
+  margin-right: 0.5rem;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.tech-stack-item span {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* For larger screens, switch to a grid layout */
+@media (min-width: 768px) {
+  .tech-stack-list {
+      flex-wrap: wrap;
+      overflow-x: hidden;
+      justify-content: center;
+  }
+
+  .tech-stack-item {
+      flex: 0 0 auto;
+      min-width: 150px; /* Ensure consistent width */
+  }
+}
+
+
+

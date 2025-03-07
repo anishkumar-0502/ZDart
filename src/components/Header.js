@@ -1,8 +1,16 @@
-import React from "react";
+
+
+
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../assets/images/logo/Zdart.png";
 
 const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
   return (
     <header className="navigation bg-tertiary">
       <nav className="navbar navbar-expand-xl navbar-light text-center py-3">
@@ -24,17 +32,18 @@ const Header = () => {
           <button
             className="navbar-toggler"
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
+            onClick={toggleMenu}
+            aria-expanded={isMenuOpen}
             aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-icon"></span>
           </button>
 
           {/* Navbar Items */}
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <div
+            className={`collapse navbar-collapse ${isMenuOpen ? "show" : ""}`}
+            id="navbarSupportedContent"
+          >
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
               <li className="nav-item"><Link className="nav-link" to="/">Home</Link></li>
               <li className="nav-item"><Link className="nav-link" to="/about">About</Link></li>
@@ -42,7 +51,7 @@ const Header = () => {
               <li className="nav-item"><Link className="nav-link" to="/services">Services</Link></li>
               <li className="nav-item"><Link className="nav-link" to="/contact">Contact</Link></li>
               <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pricing</a>
+                <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >Pricing</a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><Link className="dropdown-item" to="/ServiceDetails01">Web Design &amp; Development</Link></li>
                   <li><Link className="dropdown-item" to="/ServiceDetails02">scalable App Solutions</Link></li>

@@ -19,17 +19,6 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
-                    {/* <div className="col-lg-2 col-md-4 col-6 mb-4">
-                        <div className="footer-widget">
-                            <h5 className="mb-4 text-primary font-secondary">About</h5>
-                            <ul className="list-unstyled">
-                                <li className="mb-2"><a href="#!">Benefits</a></li>
-                                <li className="mb-2"><a href="#!">Careers</a></li>
-                                <li className="mb-2"><a href="#!">Our Story</a></li>
-                                <li className="mb-2"><a href="#!">Team</a></li>
-                            </ul>
-                        </div>
-                    </div> */}
                     <div className="col-lg-2 col-md-4 col-6 mb-4">
                         <div className="footer-widget">
                             <h5 className="mb-4 text-primary font-secondary">Help & Support</h5>
@@ -59,12 +48,13 @@ const Footer = () => {
                             </div>
                             <p className="mb-0">
                                 Stay updated with ZDart’s latest software solutions, industry insights, and exclusive offers. Subscribe to our newsletter and let’s build the future of technology together!
-                            </p>                        </div>
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <div className="row align-items-center mt-5 text-center text-md-start">
-                    <div className="col-lg-4">
-                        <Link to="/" className="d-flex align-items-center">
+                    <div className="col-12 col-lg-4 text-center text-lg-start">
+                        <Link to="/" className="d-flex align-items-center justify-content-center justify-content-lg-start">
                             <img
                                 loading="preload"
                                 decoding="async"
@@ -76,22 +66,36 @@ const Footer = () => {
                             <h1 className="mb-0">ZDart<span>.</span></h1>
                         </Link>
                     </div>
-                    <div className="col-lg-4 col-md-6 mt-4 mt-lg-0">
-                        <ul className="list-unstyled list-inline mb-0 text-lg-center">
+                    <div className="col-12 col-lg-4 col-md-6 mt-4 mt-lg-0">
+                        <ul className="list-unstyled list-inline mb-0 text-center text-lg-center">
                             <li className="list-inline-item me-4"><a className="text-black" href="/privacy-policy">Privacy Policy</a></li>
-                            <li className="list-inline-item me-4"><a className="text-black" href="/terms">Terms &amp; Conditions</a></li>
+                            <li className="list-inline-item me-4"><a className="text-black" href="/terms">Terms & Conditions</a></li>
                         </ul>
                     </div>
-                    <div className="col-lg-4 col-md-6 text-md-end mt-4 mt-md-0">
+                    <div className="col-12 col-lg-4 col-md-6 text-center text-md-end mt-4 mt-md-0">
                         <ul className="list-unstyled list-inline mb-0 social-icons">
                             <li className="list-inline-item me-3">
                                 <a title="Send an Email" className="text-black"
                                     href="mailto:zdart2026@gmail.com?subject=Inquiry&body=Hello, I would like to know more about...">
                                     <i className="fas fa-envelope"></i>
-                                </a></li>
-                            <li className="list-inline-item me-3"><a title="Explorer Linkdin Profile" className="text-black" href="https://www.linkedin.com/company/zdart/"><i className="fab fa-linkedin-in"></i></a></li>
-                            <li className="list-inline-item me-3"><a title="Explorer Instagram Profile" className="text-black" href="https://www.instagram.com/zdart.tech?igsh=NDdzbnhmYnVkZ2Ft"><i className="fab fa-instagram"></i></a></li>
+                                </a>
+                            </li>
+                            <li className="list-inline-item me-3">
+                                <a title="Explore LinkedIn Profile" className="text-black" href="https://www.linkedin.com/company/zdart/">
+                                    <i className="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                            <li className="list-inline-item me-3">
+                                <a title="Explore Instagram Profile" className="text-black" href="https://www.instagram.com/zdart.tech?igsh=NDdzbnhmYnVkZ2Ft">
+                                    <i className="fab fa-instagram"></i>
+                                </a>
+                            </li>
                         </ul>
+                    </div>
+                    <div className="col-12 text-center mt-3">
+                        <p className="mb-0 text-black">
+                            © <span style={{ fontWeight: 'bold' }}>ZDart</span> 2025. All rights reserved.
+                        </p>
                     </div>
                 </div>
             </div>

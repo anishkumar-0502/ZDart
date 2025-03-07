@@ -4,7 +4,8 @@
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Updated viewport meta tag to disable zooming -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no, maximum-scale=1, minimum-scale=1">
 
   <!-- SEO Meta Tags -->
   <meta name="description" content="ZDart - Innovative tech solutions for seamless digital experiences. Explore our cutting-edge services in AI, software development, and more.">
@@ -14,10 +15,9 @@
   <link rel="canonical" href="https://www.zdart.tech/">
 
   <!-- Favicon Links -->
-  <link rel="icon" href="https://www.zdart.tech/favicon.ico" type="image/x-icon">
-  <link rel="apple-touch-icon" sizes="180x180" href="https://www.zdart.tech/favicon.ico">
-  <link rel="icon" type="image/png" sizes="32x32" href="https://www.zdart.tech/favicon.ico">
-  <link rel="icon" type="image/png" sizes="16x16" href="https://www.zdart.tech/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://www.zdart.tech/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://www.zdart.tech/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://www.zdart.tech/apple-touch-icon.png">
   <link rel="manifest" href="https://www.zdart.tech/site.webmanifest">
 
   <!-- Open Graph (OG) Tags for Social Media -->
@@ -41,11 +41,59 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
 
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
   <title>ZDart</title>
+
+  <!-- Inline CSS to disable touch zooming -->
+  <style>
+    html, body {
+      touch-action: manipulation; /* Disables pinch-zoom and double-tap zoom */
+      -webkit-user-select: none; /* Prevents text selection on double-tap (iOS) */
+      user-select: none; /* Prevents text selection on double-tap */
+    }
+  </style>
 </head>
 
 <body>
   <div id="root"></div>
+
+  <!-- Bootstrap JS (deferred for better performance) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous" defer></script>
+
+  <!-- JavaScript to disable zooming -->
+  <script>
+    // Prevent zoom on Ctrl + mouse wheel or Ctrl + +/- keys
+    document.addEventListener('keydown', function (event) {
+      if (event.ctrlKey && (event.key === '+' || event.key === '-' || event.key === '0')) {
+        event.preventDefault();
+      }
+    });
+
+    document.addEventListener('wheel', function (event) {
+      if (event.ctrlKey) {
+        event.preventDefault();
+      }
+    }, { passive: false });
+
+    // Prevent double-tap zoom on mobile
+    let lastTouchEnd = 0;
+    document.addEventListener('touchend', function (event) {
+      const now = new Date().getTime();
+      if (now - lastTouchEnd <= 300) {
+        event.preventDefault();
+      }
+      lastTouchEnd = now;
+    }, { passive: false });
+
+    // Prevent pinch-zoom on mobile
+    document.addEventListener('touchmove', function (event) {
+      if (event.scale !== 1) {
+        event.preventDefault();
+      }
+    }, { passive: false });
+  </script>
 </body>
 
 </html>
