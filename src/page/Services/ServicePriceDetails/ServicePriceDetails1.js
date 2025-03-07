@@ -10,8 +10,8 @@ const ServicePriceDetails1 = () => {
     const exchangeRate = 83;
 
     // Prices in INR
-    const basicWebsitePriceINR = 125000; // ₹1,25,000
-    const enterpriseWebAppPriceINR = 750000; // ₹7,50,000
+    const basicWebsitePriceINR = 49999; // ₹1,25,000
+    const enterpriseWebAppPriceINR = 250000; // ₹7,50,000
 
     // Convert INR to USD
     const basicWebsitePriceUSD = Math.round(basicWebsitePriceINR / exchangeRate); // ~$1,506
@@ -124,7 +124,7 @@ const ServicePriceDetails1 = () => {
                                     <div className="pricing-card bg-purple text-white rounded-4 p-4">
                                         <h3 className="card-title mb-2">Basic Website</h3>
                                         <h4 className="display-6 mb-3">
-                                            {formatPrice(isINR ? basicWebsitePriceINR : basicWebsitePriceUSD, isINR ? 'INR' : 'USD')}<span style={{ fontSize: '0.5em' }}>/Max</span>
+                                            {formatPrice(isINR ? basicWebsitePriceINR : basicWebsitePriceUSD, isINR ? 'INR' : 'USD')}<span style={{ fontSize: '0.5em' }}>/Start's from</span>
                                         </h4>
                                         <p className="mb-4">For small businesses or portfolios.</p>
                                         <ul className="list-unstyled mb-4">
@@ -151,7 +151,7 @@ const ServicePriceDetails1 = () => {
                                     <div className="pricing-card bg-white text-dark rounded-4 p-4 shadow-sm">
                                         <h3 className="card-title mb-2">Enterprise Web App</h3>
                                         <h4 className="display-6 mb-3">
-                                            {formatPrice(isINR ? enterpriseWebAppPriceINR : enterpriseWebAppPriceUSD, isINR ? 'INR' : 'USD')}<span style={{ fontSize: '0.5em' }}>/Max</span>
+                                            {formatPrice(isINR ? enterpriseWebAppPriceINR : enterpriseWebAppPriceUSD, isINR ? 'INR' : 'USD')}<span style={{ fontSize: '0.5em' }}>/Start's from</span>
                                         </h4>
                                         <p className="mb-4">For large-scale businesses.</p>
                                         <ul className="list-unstyled mb-4">

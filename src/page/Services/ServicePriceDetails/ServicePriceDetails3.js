@@ -110,7 +110,7 @@ const ServicePriceDetails3 = () => {
                                         <h4 className="display-6 mb-3">
                                             {formatPrice(isINR ? 80000 : Math.round(80000 / exchangeRate), isINR ? 'INR' : 'USD')} -
                                             {formatPrice(isINR ? 250000 : Math.round(250000 / exchangeRate), isINR ? 'INR' : 'USD')}
-                                            <span style={{ fontSize: '0.5em' }}>/Max</span>
+                                            <span style={{ fontSize: '0.5em' }}>/UI Desgin</span>
                                         </h4>
                                         <p className="mb-4">Wireframes, visual design for small websites or apps.</p>
                                         <ul className="list-unstyled mb-4">
@@ -139,7 +139,7 @@ const ServicePriceDetails3 = () => {
                                         <h4 className="display-6 mb-3">
                                             {formatPrice(isINR ? 80000 : Math.round(80000 / exchangeRate), isINR ? 'INR' : 'USD')} -
                                             {formatPrice(isINR ? 150000 : Math.round(150000 / exchangeRate), isINR ? 'INR' : 'USD')}
-                                            <span style={{ fontSize: '0.5em' }}>/Max</span>
+                                            <span style={{ fontSize: '0.5em' }}>/UI Desgin</span>
                                         </h4>
                                         <p className="mb-4">Low-fidelity wireframes for initial layouts with markups.</p>
                                         <ul className="list-unstyled mb-4">
@@ -169,7 +169,7 @@ const ServicePriceDetails3 = () => {
                                         <h4 className="display-6 mb-3">
                                             {formatPrice(isINR ? 150000 : Math.round(150000 / exchangeRate), isINR ? 'INR' : 'USD')} -
                                             {formatPrice(isINR ? 350000 : Math.round(350000 / exchangeRate), isINR ? 'INR' : 'USD')}
-                                            <span style={{ fontSize: '0.5em' }}>/Max</span>
+                                            <span style={{ fontSize: '0.5em' }}>/UI Desgin</span>
                                         </h4>
                                         <p className="mb-4">Interactive prototypes using Figma, Adobe XD, or Sketch.</p>
                                         <ul className="list-unstyled mb-4">
@@ -198,7 +198,7 @@ const ServicePriceDetails3 = () => {
                                         <h4 className="display-6 mb-3">
                                             {formatPrice(isINR ? 350000 : Math.round(350000 / exchangeRate), isINR ? 'INR' : 'USD')} -
                                             {formatPrice(isINR ? 650000 : Math.round(650000 / exchangeRate), isINR ? 'INR' : 'USD')}
-                                            <span style={{ fontSize: '0.5em' }}>/Max</span>
+                                            <span style={{ fontSize: '0.5em' }}>/UI Desgin</span>
                                         </h4>
                                         <p className="mb-4">Comprehensive design systems for enterprise applications.</p>
                                         <ul className="list-unstyled mb-4">
@@ -227,7 +227,7 @@ const ServicePriceDetails3 = () => {
                                         <h4 className="display-6 mb-3">
                                             {formatPrice(isINR ? 250000 : Math.round(250000 / exchangeRate), isINR ? 'INR' : 'USD')} -
                                             {formatPrice(isINR ? 650000 : Math.round(650000 / exchangeRate), isINR ? 'INR' : 'USD')}
-                                            <span style={{ fontSize: '0.5em' }}>/Max</span>
+                                            <span style={{ fontSize: '0.5em' }}>/UI Desgin</span>
                                         </h4>
                                         <p className="mb-4">Design systems, research-based, interactive prototypes.</p>
                                         <ul className="list-unstyled mb-4">

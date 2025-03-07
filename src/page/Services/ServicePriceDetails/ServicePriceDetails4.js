@@ -110,7 +110,7 @@ const ServicePriceDetails4 = () => {
                                         <h4 className="display-6 mb-3">
                                             {formatPrice(isINR ? 2500 : Math.round(2500 / exchangeRate), isINR ? 'INR' : 'USD')} -
                                             {formatPrice(isINR ? 4500 : Math.round(4500 / exchangeRate), isINR ? 'INR' : 'USD')}
-                                            <span style={{ fontSize: '0.5em' }}>/hour</span>
+                                            <span style={{ fontSize: '0.5em' }}>/Day</span>
                                         </h4>
                                         <p className="mb-4">Basic functional, UI, and performance testing (per hour).</p>
                                         <ul className="list-unstyled mb-4">
@@ -139,7 +139,7 @@ const ServicePriceDetails4 = () => {
                                         <h4 className="display-6 mb-3">
                                             {formatPrice(isINR ? 5500 : Math.round(5500 / exchangeRate), isINR ? 'INR' : 'USD')} -
                                             {formatPrice(isINR ? 8500 : Math.round(8500 / exchangeRate), isINR ? 'INR' : 'USD')}
-                                            <span style={{ fontSize: '0.5em' }}>/hour</span>
+                                            <span style={{ fontSize: '0.5em' }}>/Day</span>
                                         </h4>
                                         <p className="mb-4">Scripted testing using Selenium, Appium, or Cypress (per hour).</p>
                                         <ul className="list-unstyled mb-4">
@@ -168,7 +168,7 @@ const ServicePriceDetails4 = () => {
                                         <h4 className="display-6 mb-3">
                                             {formatPrice(isINR ? 200000 : Math.round(200000 / exchangeRate), isINR ? 'INR' : 'USD')} -
                                             {formatPrice(isINR ? 600000 : Math.round(600000 / exchangeRate), isINR ? 'INR' : 'USD')}
-                                            <span style={{ fontSize: '0.5em' }}>/Max</span>
+                                            <span style={{ fontSize: '0.5em' }}>/Project</span>
                                         </h4>
                                         <p className="mb-4">Full project testing for mid-sized projects.</p>
                                         <ul className="list-unstyled mb-4">

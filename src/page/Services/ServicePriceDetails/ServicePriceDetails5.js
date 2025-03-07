@@ -109,7 +109,7 @@ const ServicePriceDetails5 = () => {
                                         <h4 className="display-6 mb-3">
                                             {formatPrice(isINR ? 250000 : Math.round(250000 / exchangeRate), isINR ? 'INR' : 'USD')} -
                                             {formatPrice(isINR ? 500000 : Math.round(500000 / exchangeRate), isINR ? 'INR' : 'USD')}
-                                            <span style={{ fontSize: '0.5em' }}>/Max</span>
+                                            <span style={{ fontSize: '0.5em' }}>/Service</span>
                                         </h4>
                                         <p className="mb-4">Hosting, security setup, small-scale solutions.</p>
                                         <ul className="list-unstyled mb-4">
@@ -138,7 +138,7 @@ const ServicePriceDetails5 = () => {
                                         <h4 className="display-6 mb-3">
                                             {formatPrice(isINR ? 500000 : Math.round(500000 / exchangeRate), isINR ? 'INR' : 'USD')} -
                                             {formatPrice(isINR ? 1200000 : Math.round(1200000 / exchangeRate), isINR ? 'INR' : 'USD')}
-                                            <span style={{ fontSize: '0.5em' }}>/Max</span>
+                                            <span style={{ fontSize: '0.5em' }}>/Service</span>
                                         </h4>
                                         <p className="mb-4">AWS, Azure, GCP – scalable solutions with load balancing.</p>
                                         <ul className="list-unstyled mb-4">
@@ -167,7 +167,7 @@ const ServicePriceDetails5 = () => {
                                         <h4 className="display-6 mb-3">
                                             {formatPrice(isINR ? 1200000 : Math.round(1200000 / exchangeRate), isINR ? 'INR' : 'USD')} -
                                             {formatPrice(isINR ? 1700000 : Math.round(1700000 / exchangeRate), isINR ? 'INR' : 'USD')}+
-                                            <span style={{ fontSize: '0.5em' }}>/Max</span>
+                                            <span style={{ fontSize: '0.5em' }}>/Service</span>
                                         </h4>
                                         <p className="mb-4">Multi-cloud, Kubernetes, DevOps setup, security compliance.</p>
                                         <ul className="list-unstyled mb-4">

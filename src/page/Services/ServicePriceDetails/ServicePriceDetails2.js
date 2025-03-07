@@ -114,7 +114,7 @@ const ServicePriceDetails2 = () => {
                                         <h4 className="display-6 mb-3">
                                             {formatPrice(isINR ? 400000 : Math.round(400000 / exchangeRate), isINR ? 'INR' : 'USD')} -
                                             {formatPrice(isINR ? 800000 : Math.round(800000 / exchangeRate), isINR ? 'INR' : 'USD')}
-                                            <span style={{ fontSize: '0.5em' }}>/Max</span>
+                                            <span style={{ fontSize: '0.5em' }}>/projects</span>
                                         </h4>
                                         <p className="mb-4">For single platform with minimal features.</p>
                                         <ul className="list-unstyled mb-4">
@@ -143,7 +143,7 @@ const ServicePriceDetails2 = () => {
                                         <h4 className="display-6 mb-3">
                                             {formatPrice(isINR ? 800000 : Math.round(800000 / exchangeRate), isINR ? 'INR' : 'USD')} -
                                             {formatPrice(isINR ? 1500000 : Math.round(1500000 / exchangeRate), isINR ? 'INR' : 'USD')}
-                                            <span style={{ fontSize: '0.5em' }}>/Max</span>
+                                            <span style={{ fontSize: '0.5em' }}>/projects</span>
                                         </h4>
                                         <p className="mb-4">For multi-platform with moderate complexity.</p>
                                         <ul className="list-unstyled mb-4">
@@ -172,7 +172,7 @@ const ServicePriceDetails2 = () => {
                                         <h4 className="display-6 mb-3">
                                             {formatPrice(isINR ? 1500000 : Math.round(1500000 / exchangeRate), isINR ? 'INR' : 'USD')} -
                                             {formatPrice(isINR ? 4200000 : Math.round(4200000 / exchangeRate), isINR ? 'INR' : 'USD')}+
-                                            <span style={{ fontSize: '0.5em' }}>/Max</span>
+                                            <span style={{ fontSize: '0.5em' }}>/projects</span>
                                         </h4>
                                         <p className="mb-4">For high scalability with complex features.</p>
                                         <ul className="list-unstyled mb-4">
