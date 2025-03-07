@@ -1,16 +1,37 @@
-
-
-
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../assets/images/logo/zdart.svg";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isPricingOpen, setIsPricingOpen] = useState(false);
+  const [isLegalOpen, setIsLegalOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+    // Close dropdowns when main menu toggles
+    if (!isMenuOpen) {
+      setIsPricingOpen(false);
+      setIsLegalOpen(false);
+    }
   };
+
+  const togglePricing = (e) => {
+    e.preventDefault();
+    if (window.innerWidth < 992) {
+      setIsPricingOpen(!isPricingOpen);
+      setIsLegalOpen(false); // Close the other dropdown
+    }
+  };
+
+  const toggleLegal = (e) => {
+    e.preventDefault();
+    if (window.innerWidth < 992) {
+      setIsLegalOpen(!isLegalOpen);
+      setIsPricingOpen(false); // Close the other dropdown
+    }
+  };
+
   return (
     <header className="navigation bg-tertiary">
       <nav className="navbar navbar-expand-xl navbar-light text-center py-3">
@@ -51,22 +72,40 @@ const Header = () => {
               <li className="nav-item"><Link className="nav-link" to="/services">Services</Link></li>
               <li className="nav-item"><Link className="nav-link" to="/contact">Contact</Link></li>
               <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >Pricing</a>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><Link className="dropdown-item" to="/ServiceDetails01">Web Design &amp; Development</Link></li>
-                  <li><Link className="dropdown-item" to="/ServiceDetails02">scalable App Solutions</Link></li>
-                  <li><Link className="dropdown-item" to="/ServiceDetails03">UI/UX</Link></li>
-                  <li><Link className="dropdown-item" to="/ServiceDetails04">Quality Assurance</Link></li>
-                  <li><Link className="dropdown-item" to="/ServiceDetails05">Cloud Solutions</Link></li>
+                <a
+                  className="nav-link dropdown-toggle"
+                  href="/"
+                  id="navbarDropdown"
+                  role="button"
+                  onClick={togglePricing}
+                  aria-expanded={isPricingOpen}
+                >
+                  Pricing
+                </a>
+                <ul className={`dropdown-menu ${isPricingOpen ? "show" : ""}`} aria-labelledby="navbarDropdown">
+                  <li><Link className="dropdown-item" to="/ServicePriceDetails01">Web Design & Development</Link></li>
+                  <li><Link className="dropdown-item" to="/ServicePriceDetails02">scalable App Solutions</Link></li>
+                  <li><Link className="dropdown-item" to="/ServicePriceDetails03">UI/UX</Link></li>
+                  <li><Link className="dropdown-item" to="/ServicePriceDetails04">Quality Assurance</Link></li>
+                  <li><Link className="dropdown-item" to="/ServicePriceDetails05">Cloud Solutions</Link></li>
                 </ul>
               </li>
               <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Legal</a>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a
+                  className="nav-link dropdown-toggle"
+                  href="/"
+                  id="navbarDropdown"
+                  role="button"
+                  onClick={toggleLegal}
+                  aria-expanded={isLegalOpen}
+                >
+                  Legal
+                </a>
+                <ul className={`dropdown-menu ${isLegalOpen ? "show" : ""}`} aria-labelledby="navbarDropdown">
                   <li><Link className="dropdown-item" to="/FAQ">FAQ's</Link></li>
                   <li><Link className="dropdown-item" to="/Disclaimer">Disclaimer</Link></li>
-                  <li><Link className="dropdown-item" to="/terms">Terms &amp; Condition</Link></li>
-                  <li><Link className="dropdown-item" to="/privacy-policy">Privacy &amp; Policy</Link></li>
+                  <li><Link className="dropdown-item" to="/terms">Terms & Condition</Link></li>
+                  <li><Link className="dropdown-item" to="/privacy-policy">Privacy & Policy</Link></li>
                 </ul>
               </li>
             </ul>
