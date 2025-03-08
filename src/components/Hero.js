@@ -35,7 +35,7 @@ const ApplyLoanModal = () => {
                 <p className="mb-4">
                   Unlock the power of digital transformation with our comprehensive suite of web services, crafted to elevate your online presence and drive growth. From stunning web design and development to powerful SEO and content writing, we've got you covered. Let's work together to bring your vision to life and dominate the digital landscape.
                 </p>
-                <Link type="button" className="btn btn-primary me-2" to="/contact">
+                <Link type="button" className="btn btn-primary me-2 mb-2 mb-lg-0" to="/contact">
                   Get a Quote
                 </Link>
                 <button
@@ -43,7 +43,7 @@ const ApplyLoanModal = () => {
                   className="btn btn-primary"
                   onClick={handleWatchNowClick}
                 >
-                  Take a look
+                  How does it work?
                 </button>
               </div>
             </div>
@@ -132,7 +132,7 @@ const ApplyLoanModal = () => {
         </div>
       </section>
 
-      {/* Inline CSS for animations */}
+      {/* Inline CSS for animations and mobile view fix */}
       <style>
         {`
           .fade-in {
