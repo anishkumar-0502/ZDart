@@ -10,7 +10,7 @@ const ServicePriceDetails1 = () => {
     const exchangeRate = 83;
 
     // Prices in INR
-    const basicWebsitePriceINR = 49999; // ₹1,25,000
+    const basicWebsitePriceINR = 14999; // ₹1,25,000
     const enterpriseWebAppPriceINR = 250000; // ₹7,50,000
 
     // Convert INR to USD

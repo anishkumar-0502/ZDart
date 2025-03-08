@@ -78,7 +78,7 @@ const ServicePriceDetails4 = () => {
                                         "Postman",
                                         "Manual Testing",
                                         "Unit Testing",
-                                        "Security Testing"
+                                        "API Testing"
                                     ].map((tool, index) => (
                                         <div key={index} className="tech-stack-item">
                                             <i className="fas fa-code"></i>

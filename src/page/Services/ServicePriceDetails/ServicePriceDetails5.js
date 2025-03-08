@@ -121,7 +121,7 @@ const ServicePriceDetails5 = () => {
                                         <a
                                             href={generateWhatsAppLink(
                                                 'Basic Cloud Deployment',
-                                                isINR ? 375000 : Math.round(375000 / exchangeRate), // Midpoint
+                                                isINR ? 250000 : Math.round(250000 / exchangeRate), // Midpoint
                                                 isINR ? 'INR' : 'USD'
                                             )}
                                             className="btn btn-light rounded-pill px-4 py-2"
@@ -150,7 +150,7 @@ const ServicePriceDetails5 = () => {
                                         <a
                                             href={generateWhatsAppLink(
                                                 'Cloud Infrastructure',
-                                                isINR ? 850000 : Math.round(850000 / exchangeRate), // Midpoint
+                                                isINR ? 500000 : Math.round(500000 / exchangeRate), // Midpoint
                                                 isINR ? 'INR' : 'USD'
                                             )}
                                             className="btn btn-dark rounded-pill px-4 py-2"
@@ -179,7 +179,7 @@ const ServicePriceDetails5 = () => {
                                         <a
                                             href={generateWhatsAppLink(
                                                 'Enterprise Cloud Solutions',
-                                                isINR ? 1450000 : Math.round(1450000 / exchangeRate), // Midpoint
+                                                isINR ? 1200000 : Math.round(1200000 / exchangeRate), // Midpoint
                                                 isINR ? 'INR' : 'USD'
                                             )}
                                             className="btn btn-light rounded-pill px-4 py-2"

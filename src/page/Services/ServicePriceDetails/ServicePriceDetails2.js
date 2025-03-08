@@ -112,8 +112,8 @@ const ServicePriceDetails2 = () => {
                                     <div className="pricing-card bg-purple text-white rounded-4 p-4">
                                         <h3 className="card-title mb-2">Basic Mobile App</h3>
                                         <h4 className="display-6 mb-3">
-                                            {formatPrice(isINR ? 400000 : Math.round(400000 / exchangeRate), isINR ? 'INR' : 'USD')} -
-                                            {formatPrice(isINR ? 800000 : Math.round(800000 / exchangeRate), isINR ? 'INR' : 'USD')}
+                                            {formatPrice(isINR ? 29999 : Math.round(29999 / exchangeRate), isINR ? 'INR' : 'USD')} -
+                                            {formatPrice(isINR ? 200000 : Math.round(200000 / exchangeRate), isINR ? 'INR' : 'USD')}
                                             <span style={{ fontSize: '0.5em' }}>/projects</span>
                                         </h4>
                                         <p className="mb-4">For single platform with minimal features.</p>
@@ -126,7 +126,7 @@ const ServicePriceDetails2 = () => {
                                         <a
                                             href={generateWhatsAppLink(
                                                 'Basic Mobile App',
-                                                isINR ? 600000 : Math.round(600000 / exchangeRate), // Midpoint
+                                                isINR ? 29999 : Math.round(29999 / exchangeRate), // Midpoint
                                                 isINR ? 'INR' : 'USD'
                                             )}
                                             className="btn btn-light rounded-pill px-4 py-2"
@@ -141,8 +141,8 @@ const ServicePriceDetails2 = () => {
                                     <div className="pricing-card bg-white text-dark rounded-4 p-4 shadow-sm">
                                         <h3 className="card-title mb-2">Mid-Level App</h3>
                                         <h4 className="display-6 mb-3">
-                                            {formatPrice(isINR ? 800000 : Math.round(800000 / exchangeRate), isINR ? 'INR' : 'USD')} -
-                                            {formatPrice(isINR ? 1500000 : Math.round(1500000 / exchangeRate), isINR ? 'INR' : 'USD')}
+                                            {formatPrice(isINR ? 200000 : Math.round(200000 / exchangeRate), isINR ? 'INR' : 'USD')} -
+                                            {formatPrice(isINR ? 300000 : Math.round(300000 / exchangeRate), isINR ? 'INR' : 'USD')}
                                             <span style={{ fontSize: '0.5em' }}>/projects</span>
                                         </h4>
                                         <p className="mb-4">For multi-platform with moderate complexity.</p>
@@ -155,7 +155,7 @@ const ServicePriceDetails2 = () => {
                                         <a
                                             href={generateWhatsAppLink(
                                                 'Mid-Level App',
-                                                isINR ? 1150000 : Math.round(1150000 / exchangeRate), // Midpoint
+                                                isINR ? 200000 : Math.round(200000 / exchangeRate), // Midpoint
                                                 isINR ? 'INR' : 'USD'
                                             )}
                                             className="btn btn-dark rounded-pill px-4 py-2"
@@ -170,7 +170,7 @@ const ServicePriceDetails2 = () => {
                                     <div className="pricing-card bg-purple text-white rounded-4 p-4">
                                         <h3 className="card-title mb-2">Advanced App</h3>
                                         <h4 className="display-6 mb-3">
-                                            {formatPrice(isINR ? 1500000 : Math.round(1500000 / exchangeRate), isINR ? 'INR' : 'USD')} -
+                                            {formatPrice(isINR ? 300000 : Math.round(300000 / exchangeRate), isINR ? 'INR' : 'USD')} -
                                             {formatPrice(isINR ? 4200000 : Math.round(4200000 / exchangeRate), isINR ? 'INR' : 'USD')}+
                                             <span style={{ fontSize: '0.5em' }}>/projects</span>
                                         </h4>
@@ -184,7 +184,7 @@ const ServicePriceDetails2 = () => {
                                         <a
                                             href={generateWhatsAppLink(
                                                 'Advanced App',
-                                                isINR ? 2850000 : Math.round(2850000 / exchangeRate), // Midpoint
+                                                isINR ? 300000 : Math.round(300000 / exchangeRate), // Midpoint
                                                 isINR ? 'INR' : 'USD'
                                             )}
                                             className="btn btn-light rounded-pill px-4 py-2"

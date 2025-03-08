@@ -108,7 +108,7 @@ const ServicePriceDetails3 = () => {
                                     <div className="pricing-card bg-purple text-white rounded-4 p-4">
                                         <h3 className="card-title mb-2">Basic UI/UX</h3>
                                         <h4 className="display-6 mb-3">
-                                            {formatPrice(isINR ? 80000 : Math.round(80000 / exchangeRate), isINR ? 'INR' : 'USD')} -
+                                            {formatPrice(isINR ? 10000 : Math.round(10000 / exchangeRate), isINR ? 'INR' : 'USD')} -
                                             {formatPrice(isINR ? 250000 : Math.round(250000 / exchangeRate), isINR ? 'INR' : 'USD')}
                                             <span style={{ fontSize: '0.5em' }}>/UI Desgin</span>
                                         </h4>
@@ -122,7 +122,7 @@ const ServicePriceDetails3 = () => {
                                         <a
                                             href={generateWhatsAppLink(
                                                 'Basic UI/UX',
-                                                isINR ? 165000 : Math.round(165000 / exchangeRate), // Midpoint
+                                                isINR ? 10000 : Math.round(10000 / exchangeRate), // Midpoint
                                                 isINR ? 'INR' : 'USD'
                                             )}
                                             className="btn btn-light rounded-pill px-4 py-2"
@@ -137,8 +137,8 @@ const ServicePriceDetails3 = () => {
                                     <div className="pricing-card bg-white text-dark rounded-4 p-4 shadow-sm">
                                         <h3 className="card-title mb-2">Wireframing (Low-fidelity)</h3>
                                         <h4 className="display-6 mb-3">
-                                            {formatPrice(isINR ? 80000 : Math.round(80000 / exchangeRate), isINR ? 'INR' : 'USD')} -
-                                            {formatPrice(isINR ? 150000 : Math.round(150000 / exchangeRate), isINR ? 'INR' : 'USD')}
+                                            {formatPrice(isINR ? 50000 : Math.round(50000 / exchangeRate), isINR ? 'INR' : 'USD')} -
+                                            {formatPrice(isINR ? 250000 : Math.round(250000 / exchangeRate), isINR ? 'INR' : 'USD')}
                                             <span style={{ fontSize: '0.5em' }}>/UI Desgin</span>
                                         </h4>
                                         <p className="mb-4">Low-fidelity wireframes for initial layouts with markups.</p>
@@ -151,7 +151,7 @@ const ServicePriceDetails3 = () => {
                                         <a
                                             href={generateWhatsAppLink(
                                                 'Wireframing (Low-fidelity)',
-                                                isINR ? 115000 : Math.round(115000 / exchangeRate), // Midpoint
+                                                isINR ? 50000 : Math.round(50000 / exchangeRate), // Midpoint
                                                 isINR ? 'INR' : 'USD'
                                             )}
                                             className="btn btn-dark rounded-pill px-4 py-2"
@@ -167,7 +167,7 @@ const ServicePriceDetails3 = () => {
 
                                         <h3 className="card-title mb-2">Interactive Prototyping (Figma/XD/Sketch)</h3>
                                         <h4 className="display-6 mb-3">
-                                            {formatPrice(isINR ? 150000 : Math.round(150000 / exchangeRate), isINR ? 'INR' : 'USD')} -
+                                            {formatPrice(isINR ? 100000 : Math.round(100000 / exchangeRate), isINR ? 'INR' : 'USD')} -
                                             {formatPrice(isINR ? 350000 : Math.round(350000 / exchangeRate), isINR ? 'INR' : 'USD')}
                                             <span style={{ fontSize: '0.5em' }}>/UI Desgin</span>
                                         </h4>
@@ -181,7 +181,7 @@ const ServicePriceDetails3 = () => {
                                         <a
                                             href={generateWhatsAppLink(
                                                 'Interactive Prototyping (Figma/XD/Sketch)',
-                                                isINR ? 250000 : Math.round(250000 / exchangeRate), // Midpoint
+                                                isINR ? 100000 : Math.round(100000 / exchangeRate), // Midpoint
                                                 isINR ? 'INR' : 'USD'
                                             )}
                                             className="btn btn-dark rounded-pill px-4 py-2"
@@ -210,7 +210,7 @@ const ServicePriceDetails3 = () => {
                                         <a
                                             href={generateWhatsAppLink(
                                                 'Design System (Enterprise Level)',
-                                                isINR ? 500000 : Math.round(500000 / exchangeRate), // Midpoint
+                                                isINR ? 350000 : Math.round(350000 / exchangeRate), // Midpoint
                                                 isINR ? 'INR' : 'USD'
                                             )}
                                             className="btn btn-light rounded-pill px-4 py-2"
@@ -225,7 +225,7 @@ const ServicePriceDetails3 = () => {
                                     <div className="pricing-card bg-purple text-white rounded-4 p-4">
                                         <h3 className="card-title mb-2">Advanced UI/UX</h3>
                                         <h4 className="display-6 mb-3">
-                                            {formatPrice(isINR ? 250000 : Math.round(250000 / exchangeRate), isINR ? 'INR' : 'USD')} -
+                                            {formatPrice(isINR ? 450000 : Math.round(450000 / exchangeRate), isINR ? 'INR' : 'USD')} -
                                             {formatPrice(isINR ? 650000 : Math.round(650000 / exchangeRate), isINR ? 'INR' : 'USD')}
                                             <span style={{ fontSize: '0.5em' }}>/UI Desgin</span>
                                         </h4>
