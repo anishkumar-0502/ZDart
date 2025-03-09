@@ -88,7 +88,7 @@ const ContactUsContents = () => {
 											<br />
 											<div className="block mx-0 mx-lg-3 mt-4">
 												<h4 className="h5">Office Location</h4>
-												<div className="content">No 1, 2nd floor 7th main Rd
+												<div className="content">BTM Layout 2nd stage
 													<br />Bengaluru 560076,
 													<br />Karnataka, India</div>
 											</div>

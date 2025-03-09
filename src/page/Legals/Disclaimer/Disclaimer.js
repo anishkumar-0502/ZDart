@@ -49,11 +49,11 @@ const Disclaimer = () => {
                             <div className="content">
                                 <h2 id="the-use-of-the-information">Disclaimer for ZDart</h2>
                                 <ul>
-                                    <li>If you require any more information or have any questions about our site's disclaimer, please feel free to contact us by email at anishkumarak8686@gmail.com</li>
+                                    <li>If you require any more information or have any questions about our site's disclaimer, please feel free to contact us by email at zdart2026@gmail.com</li>
                                 </ul>
-                                <h2 id="application-processing">Disclaimers for www.ZDart.tech</h2>
+                                <h2 id="application-processing">Disclaimers for www.zdart.tech</h2>
                                 <ul>
-                                    <li>All the information on this website - http://www.ZDart.tech- is published in good faith and for general information purpose only. www.ZDart.tech does not make any warranties about the completeness, reliability and accuracy of this information. Any action you take upon the information you find on this website (www.ZDart.tech), is strictly at your own risk. www.ZDart.tech will
+                                    <li>All the information on this website - https://www.zdart.tech is published in good faith and for general information purpose only. www.zdart.tech does not make any warranties about the completeness, reliability and accuracy of this information. Any action you take upon the information you find on this website (www.zdart.tech), is strictly at your own risk. www.zdart.tech will
                                         not be liable for any losses and/or damages in connection with the use of our website.</li>
                                     <li>From our website, you can visit other websites by following hyperlinks to such external sites. While we strive to provide only quality links to useful and ethical websites, we have no control over the content and nature of these sites. These links to other websites do not imply a recommendation for all the content found on these sites. Site owners and content may change
                                         without notice and may occur before we have the opportunity to remove a link which may have gone 'bad'.</li>

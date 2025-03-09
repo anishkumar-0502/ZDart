@@ -50,7 +50,7 @@ const Terms = () => {
                             <h2 className='text-dark'>Website Terms and Conditions of Use</h2>
                             <div className="content">
                                 <h3 id="the-use-of-the-information">1. Terms</h3>
-                                <p>By accessing this Website, accessible from https://www.zdart.tech, you are agreeing to be bound by these Website Terms and Conditions of Use and agree that you are responsible for the agreement with any applicable local laws. If you disagree with any of these terms, you are prohibited from accessing this site. The materials contained in this Website are protected by copyright and trade mark law.</p>
+                                <p>By accessing this Website, accessible from https://www.zdart.tech , you are agreeing to be bound by these Website Terms and Conditions of Use and agree that you are responsible for the agreement with any applicable local laws. If you disagree with any of these terms, you are prohibited from accessing this site. The materials contained in this Website are protected by copyright and trade mark law.</p>
                                 <h3 id="application-processing">2. Use License</h3>
                                 <p>Permission is granted to temporarily download one copy of the materials on ZDart's Website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:</p>
                                 <ul>
