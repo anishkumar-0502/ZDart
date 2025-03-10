@@ -224,7 +224,7 @@ const privacypolicy = () => {
                                         <p>By email: zdart2026@gmail.com</p>
                                     </li>
                                     <li>
-                                        <p>By phone number: +918870208686</p>
+                                        <p>By phone number: +91 86600 98551</p>
                                     </li>
                                 </ul>
                             </div>
