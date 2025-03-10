@@ -81,7 +81,7 @@ const ContactUsContents = () => {
 											<div className="block mx-0 mx-lg-3 mt-0">
 												<h4 className="h5">Still Have Questions?</h4>
 												<div className="content">Call Us We Will Be Happy To Help
-													<br /> <Link to="tel:+918870208686">+91 88702 08686</Link>
+													<br /> <Link to="tel:+918660098551">+91 86600 98551</Link>
 													<br />Monday - Friday
 													<br />9AM TO 8PM</div>
 											</div>
@@ -96,8 +96,8 @@ const ContactUsContents = () => {
 											<div className="block mx-0 mx-lg-3 mt-4">
 												<h4 className="h5">Contact Us</h4>
 												<div className="content"> @<b>ZDart.tech</b>
-													<br /><b>Email:</b> zdart2026@gmail.com.
-													<br /><b>Phone:</b> +91 88702 08686.</div>
+													<br /><b>Email:</b> zdart2026@gmail.com
+													<br /><b>Phone:</b> +91 86600 98551</div>
 											</div>
 											<ul className="list-unstyled list-inline my-4 mx-3 social-icons">
 												<li className="list-inline-item me-3">

@@ -91,7 +91,7 @@ const FAQSection = () => {
               <div className="block mx-0 mx-lg-3 mt-0">
                 <h4 className="h5">Still Have Questions?</h4>
                 <div className="content">Call Us We Will Be Happy To Help
-                  <br /> <a href="tel:+918870208686">+91 88702 08686</a>
+                  <br /> <a href="tel:+918660098551">+91 86600 98551</a>
                   <br />Monday - Friday
                   <br />9AM TO 8PM</div>
               </div>
@@ -106,8 +106,8 @@ const FAQSection = () => {
               <div className="block mx-0 mx-lg-3 mt-4">
                 <h4 className="h5">Contact Us</h4>
                 <div className="content"> @<b>ZDart.tech</b>
-                  <br /><b>Email:</b> zdart2026@gmail.com.
-                  <br /><b>Phone:</b> +91 88702 08686.</div>
+                  <br /><b>Email:</b> zdart2026@gmail.com
+                  <br /><b>Phone:</b> +91 86600 98551</div>
               </div>
             </div>
           </div>
