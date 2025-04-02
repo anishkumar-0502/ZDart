@@ -88,9 +88,9 @@ const ContactUsContents = () => {
 											<br />
 											<div className="block mx-0 mx-lg-3 mt-4">
 												<h4 className="h5">Office Location</h4>
-												<div className="content">BTM Layout 2nd stage
-													<br />Bengaluru 560076,
-													<br />Karnataka, India</div>
+												<div className="content">KGISL Campus, IT Tower,
+													<br />Saravanampatti, Coimbatore,
+													<br />Tamil Nadu, India - 641035</div>
 											</div>
 											<br />
 											<div className="block mx-0 mx-lg-3 mt-4">
